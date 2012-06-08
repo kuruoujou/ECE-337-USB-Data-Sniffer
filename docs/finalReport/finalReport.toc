@@ -1,0 +1,32 @@
+\contentsline {chapter}{\numberline {1}Executive Summary}{2}
+\contentsline {chapter}{\numberline {2}Design Specifications}{3}
+\contentsline {section}{\numberline {2.1}Interfacing Specifications}{3}
+\contentsline {section}{\numberline {2.2}Operational Characteristics}{4}
+\contentsline {subsection}{\numberline {2.2.1}Pin-out}{4}
+\contentsline {subsection}{\numberline {2.2.2}Chip Operation Sequence}{5}
+\contentsline {subsubsection}{General Operation}{5}
+\contentsline {subsubsection}{USB Operation}{5}
+\contentsline {subsubsection}{SD Operation}{6}
+\contentsline {section}{\numberline {2.3}Requirements}{6}
+\contentsline {chapter}{\numberline {3}Final Design}{8}
+\contentsline {section}{\numberline {3.1}Design Architecture}{8}
+\contentsline {section}{\numberline {3.2}Functional Block Diagrams}{9}
+\contentsline {subsection}{\numberline {3.2.1}Controller}{9}
+\contentsline {subsection}{\numberline {3.2.2}Decoder}{10}
+\contentsline {subsection}{\numberline {3.2.3}Interceptor}{11}
+\contentsline {subsection}{\numberline {3.2.4}microSD Controller}{12}
+\contentsline {section}{\numberline {3.3}Standards and Protocols}{13}
+\contentsline {section}{\numberline {3.4}Timing and Area Budgets}{14}
+\contentsline {chapter}{\numberline {4}Testing}{16}
+\contentsline {chapter}{\numberline {5}Layout}{19}
+\contentsline {chapter}{\numberline {6}Results}{20}
+\contentsline {section}{\numberline {6.1}Fixed Success Critera}{20}
+\contentsline {section}{\numberline {6.2}Design Specific Success Critera}{20}
+\contentsline {chapter}{\numberline {A}Data Sheets and Guide to Design Data}{21}
+\contentsline {chapter}{\numberline {B}Simulation Results}{25}
+\contentsline {section}{\numberline {B.1}Token Identification}{25}
+\contentsline {section}{\numberline {B.2}Data Descriptor Modifications}{26}
+\contentsline {subsection}{\numberline {B.2.1}USB 2.0 to USB 1.1}{26}
+\contentsline {subsection}{\numberline {B.2.2}USB 3.0 to USB 1.1}{27}
+\contentsline {section}{\numberline {B.3}Transparency}{28}
+\contentsline {section}{\numberline {B.4}microSD Output}{29}

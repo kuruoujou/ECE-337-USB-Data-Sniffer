@@ -1,0 +1,226 @@
+
+
+
+
+
+Tracing Clock clk
+
+****** Clock Tree (clk) Structure
+Nr. Subtrees                   : 2
+Nr. Sinks                      : 171
+Nr.          Rising  Sync Pins : 171
+Nr. Inverter Rising  Sync Pins : 0
+Nr.          Falling Sync Pins : 0
+Nr. Inverter Falling Sync Pins : 0
+
+** Leaf Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+DFFSR (CLK)                             169
+DFFPOSX1 (CLK)                          2
+-----------------------------------------------
+
+
+
+
+** Gate Component Input Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+PADINC (YPAD)                           1
+-----------------------------------------------
+
+
+
+** Subtree Detail
+*DEPTH 0 Input_Pin: (EMPTY) Output_Pin: (clk) Cell: (EMPTY) Net: (clk) NO-INV
+          Nr. of Exclude Pins           : 0
+          Nr. of Total Sync Pins        : 0
+          Nr. of     Rising  Sync Pins  : 0
+          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Falling Sync Pins  : 0
+          Nr. of Inv Falling Sync Pins  : 0
+          Nr. of Gated Clocks           : 1
+*DEPTH 1 Input_Pin: (U6/YPAD) Output_Pin: (U6/DI) Cell: (PADINC) Net: (nclk) NO-INV
+          Nr. of Exclude Pins           : 0
+          Nr. of Total Sync Pins        : 171
+          Nr. of     Rising  Sync Pins  : 171
+          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Falling Sync Pins  : 0
+          Nr. of Inv Falling Sync Pins  : 0
+          Nr. of Gated Clocks           : 0
+***********************************************************
+
+****** Pre CTS Detail Structure for clock clk
+*DEPTH 0: clk
+ *DEPTH 1: U6(YPAD->DI)
+  (Sync)I0/U_2/U_0/fifoEmptyReg_reg/CLK
+  (Sync)I0/U_2/U_0/fifoFullReg_reg/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[3][7]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[3][6]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[3][5]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[3][4]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[3][3]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[3][2]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[3][1]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[3][0]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[2][7]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[2][6]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[2][5]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[2][4]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[2][3]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[2][2]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[2][1]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[2][0]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[1][7]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[1][6]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[1][5]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[1][4]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[1][3]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[1][2]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[1][1]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[1][0]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[0][7]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[0][6]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[0][5]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[0][4]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[0][3]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[0][2]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[0][1]/CLK
+  (Sync)I0/U_2/U_0/gregData_reg[0][0]/CLK
+  (Sync)I0/U_2/U_1/count_reg[0]/CLK
+  (Sync)I0/U_2/U_1/count_reg[1]/CLK
+  (Sync)I0/U_2/U_2/count_reg[0]/CLK
+  (Sync)I0/U_2/U_2/count_reg[1]/CLK
+  (Sync)I0/U_5/count_reg[0]/CLK
+  (Sync)I0/U_5/count_reg[8]/CLK
+  (Sync)I0/U_5/count_reg[7]/CLK
+  (Sync)I0/U_5/count_reg[6]/CLK
+  (Sync)I0/U_5/count_reg[5]/CLK
+  (Sync)I0/U_5/count_reg[4]/CLK
+  (Sync)I0/U_5/count_reg[3]/CLK
+  (Sync)I0/U_5/count_reg[2]/CLK
+  (Sync)I0/U_5/count_reg[1]/CLK
+  (Sync)I0/U_5/sclReg_reg/CLK
+  (Sync)I0/U_4/load1_reg/CLK
+  (Sync)I0/U_4/load2_reg/CLK
+  (Sync)I0/U_4/load_reg/CLK
+  (Sync)I0/U_4/tsrDummyReg_reg[0]/CLK
+  (Sync)I0/U_4/tsrDataReg_reg[0]/CLK
+  (Sync)I0/U_4/tsrDataReg_reg[1]/CLK
+  (Sync)I0/U_4/tsrDataReg_reg[2]/CLK
+  (Sync)I0/U_4/tsrDataReg_reg[3]/CLK
+  (Sync)I0/U_4/tsrDataReg_reg[4]/CLK
+  (Sync)I0/U_4/tsrDataReg_reg[5]/CLK
+  (Sync)I0/U_4/tsrDataReg_reg[6]/CLK
+  (Sync)I0/U_4/tsrDataReg_reg[7]/CLK
+  (Sync)I0/U_0/eop1_reg/CLK
+  (Sync)I0/U_0/eop2_reg/CLK
+  (Sync)I0/U_0/eopf_reg/CLK
+  (Sync)I0/U_0/eopCount_reg[0]/CLK
+  (Sync)I0/U_0/eopCount_reg[1]/CLK
+  (Sync)I0/U_0/eopCount_reg[2]/CLK
+  (Sync)I0/U_0/usb_reg[2]/CLK
+  (Sync)I0/U_0/writeCount_reg[2]/CLK
+  (Sync)I0/U_0/usb_reg[3]/CLK
+  (Sync)I0/U_0/usb_reg[1]/CLK
+  (Sync)I0/U_0/usb_reg[0]/CLK
+  (Sync)I0/U_0/writeCount_reg[0]/CLK
+  (Sync)I0/U_0/writeCount_reg[1]/CLK
+  (Sync)I0/U_0/dr1_reg/CLK
+  (Sync)I0/U_0/dr2_reg/CLK
+  (Sync)I0/U_0/dr_reg/CLK
+  (Sync)I0/U_0/sd_reg/CLK
+  (Sync)I0/U_1/data_ready_0_reg/CLK
+  (Sync)I0/U_1/data_ready_1_reg/CLK
+  (Sync)I0/U_1/CS_reg[0]/CLK
+  (Sync)I0/U_1/CS_reg[1]/CLK
+  (Sync)I0/U_1/CS_reg[2]/CLK
+  (Sync)I0/U_1/CS_reg[3]/CLK
+  (Sync)I0/U_1/cur_data_reg[1]/CLK
+  (Sync)I0/U_1/cur_data_reg[0]/CLK
+  (Sync)I0/U_1/cur_inst_reg[3]/CLK
+  (Sync)I0/U_1/cur_inst_reg[2]/CLK
+  (Sync)I0/U_1/cur_inst_reg[1]/CLK
+  (Sync)I0/U_1/cur_inst_reg[0]/CLK
+  (Sync)I0/U_1/part2/cur_EOP_reg/CLK
+  (Sync)I0/U_1/part2/d1_reg/CLK
+  (Sync)I0/U_1/part2/d2_reg/CLK
+  (Sync)I0/U_1/part2/cur_EGDE_reg/CLK
+  (Sync)I0/U_1/part2/cur_FEGDE_reg/CLK
+  (Sync)I0/U_1/part3/data0_buf0_reg/CLK
+  (Sync)I0/U_1/part3/data_out_reg/CLK
+  (Sync)I0/U_1/part4/cnt_reg[0]/CLK
+  (Sync)I0/U_1/part4/cnt_reg[1]/CLK
+  (Sync)I0/U_1/part4/cnt_reg[2]/CLK
+  (Sync)I0/U_1/part4/pre_val_reg[7]/CLK
+  (Sync)I0/U_1/part4/pre_val_reg[6]/CLK
+  (Sync)I0/U_1/part4/pre_val_reg[5]/CLK
+  (Sync)I0/U_1/part4/pre_val_reg[4]/CLK
+  (Sync)I0/U_1/part4/pre_val_reg[3]/CLK
+  (Sync)I0/U_1/part4/pre_val_reg[2]/CLK
+  (Sync)I0/U_1/part4/pre_val_reg[1]/CLK
+  (Sync)I0/U_1/part4/pre_val_reg[0]/CLK
+  (Sync)I0/U_1/part4/cur_data_ready_reg/CLK
+  (Sync)I0/U_1/part5/CS_reg[0]/CLK
+  (Sync)I0/U_1/part5/CS_reg[2]/CLK
+  (Sync)I0/U_1/part5/CS_reg[3]/CLK
+  (Sync)I0/U_1/part5/CS_reg[1]/CLK
+  (Sync)I0/U_1/part5/cur_shift_en_reg/CLK
+  (Sync)I0/U_1/part5/dclk_cur_reg/CLK
+  (Sync)I0/U_3/U_0/computerDataPlusSync_reg/CLK
+  (Sync)I0/U_3/U_0/computerDataMinusSync_reg/CLK
+  (Sync)I0/U_3/U_0/usbInt1_reg/CLK
+  (Sync)I0/U_3/U_0/usbInt2_reg/CLK
+  (Sync)I0/U_3/U_0/eopInt1_reg/CLK
+  (Sync)I0/U_3/U_0/eopInt2_reg/CLK
+  (Sync)I0/U_3/U_0/computerDataPlusOutput_reg/CLK
+  (Sync)I0/U_3/U_0/computerDataMinusOutput_reg/CLK
+  (Sync)I0/U_3/U_1/eopIn1_reg/CLK
+  (Sync)I0/U_3/U_1/eopIn2_reg/CLK
+  (Sync)I0/U_3/U_1/eopFound_reg/CLK
+  (Sync)I0/U_3/U_1/state_reg[2]/CLK
+  (Sync)I0/U_3/U_1/state_reg[1]/CLK
+  (Sync)I0/U_3/U_1/state_reg[0]/CLK
+  (Sync)I0/U_3/U_1/locku_reg/CLK
+  (Sync)I0/U_3/U_1/usbLock_reg/CLK
+  (Sync)I0/U_3/U_1/lockc_reg/CLK
+  (Sync)I0/U_3/U_1/computerLock_reg/CLK
+  (Sync)I0/U_3/U_4/usbInt1_reg/CLK
+  (Sync)I0/U_3/U_4/usbInt2_reg/CLK
+  (Sync)I0/U_3/U_4/cntr_reg[0]/CLK
+  (Sync)I0/U_3/U_4/cntr_reg[4]/CLK
+  (Sync)I0/U_3/U_4/state_reg[1]/CLK
+  (Sync)I0/U_3/U_4/state_reg[0]/CLK
+  (Sync)I0/U_3/U_4/cntr_reg[1]/CLK
+  (Sync)I0/U_3/U_4/cntr_reg[2]/CLK
+  (Sync)I0/U_3/U_4/cntr_reg[3]/CLK
+  (Sync)I0/U_3/U_4/state_reg[3]/CLK
+  (Sync)I0/U_3/U_4/state_reg[2]/CLK
+  (Sync)I0/U_3/U_4/usbDataMinusSync_reg/CLK
+  (Sync)I0/U_3/U_4/usbDataMinusSync2_reg/CLK
+  (Sync)I0/U_3/U_4/usbDataMinusOutputReg_reg/CLK
+  (Sync)I0/U_3/U_4/usbDataPlusSync_reg/CLK
+  (Sync)I0/U_3/U_4/usbDataPlusSync2_reg/CLK
+  (Sync)I0/U_3/U_4/usbDataPlusOutputReg_reg/CLK
+  (Sync)I0/U_6/sd_clock1_reg/CLK
+  (Sync)I0/U_6/sd_clock2_reg/CLK
+  (Sync)I0/U_6/sdc_reg/CLK
+  (Sync)I0/U_6/sd_reg[0]/CLK
+  (Sync)I0/U_6/sd_reg[2]/CLK
+  (Sync)I0/U_6/sd_reg[1]/CLK
+  (Sync)I0/U_6/sd_reg[3]/CLK
+  (Sync)I0/U_6/count1_reg[3]/CLK
+  (Sync)I0/U_6/count1_reg[6]/CLK
+  (Sync)I0/U_6/count1_reg[0]/CLK
+  (Sync)I0/U_6/count1_reg[1]/CLK
+  (Sync)I0/U_6/count1_reg[2]/CLK
+  (Sync)I0/U_6/count1_reg[4]/CLK
+  (Sync)I0/U_6/count1_reg[5]/CLK
+  (Sync)I0/U_6/count3_reg[0]/CLK
+  (Sync)I0/U_6/count3_reg[1]/CLK
+  (Sync)I0/U_6/count3_reg[2]/CLK
+  (Sync)I0/U_6/count2_reg[0]/CLK
+  (Sync)I0/U_6/count2_reg[4]/CLK
+  (Sync)I0/U_6/count2_reg[3]/CLK
+  (Sync)I0/U_6/count2_reg[2]/CLK
+  (Sync)I0/U_6/count2_reg[1]/CLK

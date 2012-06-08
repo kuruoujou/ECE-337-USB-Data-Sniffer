@@ -1,0 +1,159 @@
+#
+# File LEDA_Makefile, STANDARD Makefile
+# Created by LEDA VHDL*Verilog Makefile Generator (v2.1.0.MP), Apr 22, 2012
+# Input command file used : /home/ecegrid/a/mg56/ece337/project_new/leda.cmd
+#
+
+TOUCH = touch
+NOT_COMPILE = 
+VCOMP = $(NOT_COMPILE) /package/eda/synopsys/leda-E-2010.12/amd64/bin/v -M +no_lvs_env  -c -z -i -k93e -log /home/ecegrid/a/mg56/ece337/project_new/leda-logs/compiler.log -full_log -snote -config_file /home/ecegrid/a/ece337/Class0.5u/.leda_config.tcl comp
+VeCOMP = $(NOT_COMPILE) /package/eda/synopsys/leda-E-2010.12/amd64/bin/ve -M +no_lvs_env  -c -z -p2 -i -k95e -log /home/ecegrid/a/mg56/ece337/project_new/leda-logs/compiler.log -full_log -snote +max_case+8 +max_casexz+8 -config_file /home/ecegrid/a/ece337/Class0.5u/.leda_config.tcl comp
+P     = $(LEDA_PATH)/amd64/bin/project.csh
+SHELL = /bin/csh -f
+GARBAGE = garbage
+
+WORK  = WORK
+HOMELESS  = LEDA_WORK
+LEDA_WORK  = LEDA_WORK
+IEEE  = ${LEDA_PATH}/amd64/resources/resource_93/IEEE
+STD   = ${LEDA_PATH}/amd64/resources/resource_93/STD
+
+##############################################################################
+
+all: $(GARBAGE) create-libs compile
+	@ echo 'compilation end'
+
+.SILENT:
+
+$(GARBAGE):
+	if (! -e $(GARBAGE)) mkdir $(GARBAGE)
+
+create-libs:
+	$(MAKE_LIBRARY_COMMAND)
+
+clear:
+	 rm -rf WORK LEDA_WORK 
+	 rm -f $(GARBAGE)/*
+
+##############################################################################
+### Dependencies :
+
+compile:\
+$(GARBAGE)/SpiClkDivide.vhd_6\
+$(GARBAGE)/timer.vhd_16\
+$(GARBAGE)/computerInterceptor.vhd_8\
+$(GARBAGE)/shift_greg.vhd_14\
+$(GARBAGE)/NRZIdecode.vhd_4\
+$(GARBAGE)/sd_control.vhd_13\
+$(GARBAGE)/FifoRead.vhd_1\
+$(GARBAGE)/lockingDetector.vhd_12\
+$(GARBAGE)/controller.vhd_9\
+$(GARBAGE)/tristate.vhd_17\
+$(GARBAGE)/sniffer_top.vhd_15\
+$(GARBAGE)/interceptor.vhd_11\
+$(GARBAGE)/FifoWrite.vhd_3\
+$(GARBAGE)/decoder.vhd_10\
+$(GARBAGE)/SEE_det.vhd_5\
+$(GARBAGE)/FifoRam.vhd_0\
+$(GARBAGE)/SpiXmitSR.vhd_7\
+$(GARBAGE)/FifoTop.vhd_2\
+$(GARBAGE)/usbInterceptor.vhd_18
+
+##############################################################################
+### Compilation lines :
+
+$(GARBAGE)/SpiClkDivide.vhd_6: /home/ecegrid/a/mg56/ece337/project_new/source/SpiClkDivide.vhd
+	echo read_files /home/ecegrid/a/mg56/ece337/project_new/source/SpiClkDivide.vhd -work $(LEDA_WORK) >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+	$(VCOMP) /home/ecegrid/a/mg56/ece337/project_new/source/SpiClkDivide.vhd -W $(LEDA_WORK)
+	$(TOUCH) $(GARBAGE)/SpiClkDivide.vhd_6
+
+$(GARBAGE)/timer.vhd_16: /home/ecegrid/a/mg56/ece337/project_new/source/timer.vhd
+	echo read_files /home/ecegrid/a/mg56/ece337/project_new/source/timer.vhd -work $(LEDA_WORK) >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+	$(VCOMP) /home/ecegrid/a/mg56/ece337/project_new/source/timer.vhd -W $(LEDA_WORK)
+	$(TOUCH) $(GARBAGE)/timer.vhd_16
+
+$(GARBAGE)/computerInterceptor.vhd_8: /home/ecegrid/a/mg56/ece337/project_new/source/computerInterceptor.vhd
+	echo read_files /home/ecegrid/a/mg56/ece337/project_new/source/computerInterceptor.vhd -work $(LEDA_WORK) >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+	$(VCOMP) /home/ecegrid/a/mg56/ece337/project_new/source/computerInterceptor.vhd -W $(LEDA_WORK)
+	$(TOUCH) $(GARBAGE)/computerInterceptor.vhd_8
+
+$(GARBAGE)/shift_greg.vhd_14: /home/ecegrid/a/mg56/ece337/project_new/source/shift_greg.vhd
+	echo read_files /home/ecegrid/a/mg56/ece337/project_new/source/shift_greg.vhd -work $(LEDA_WORK) >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+	$(VCOMP) /home/ecegrid/a/mg56/ece337/project_new/source/shift_greg.vhd -W $(LEDA_WORK)
+	$(TOUCH) $(GARBAGE)/shift_greg.vhd_14
+
+$(GARBAGE)/NRZIdecode.vhd_4: /home/ecegrid/a/mg56/ece337/project_new/source/NRZIdecode.vhd
+	echo read_files /home/ecegrid/a/mg56/ece337/project_new/source/NRZIdecode.vhd -work $(LEDA_WORK) >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+	$(VCOMP) /home/ecegrid/a/mg56/ece337/project_new/source/NRZIdecode.vhd -W $(LEDA_WORK)
+	$(TOUCH) $(GARBAGE)/NRZIdecode.vhd_4
+
+$(GARBAGE)/sd_control.vhd_13: /home/ecegrid/a/mg56/ece337/project_new/source/sd_control.vhd
+	echo read_files /home/ecegrid/a/mg56/ece337/project_new/source/sd_control.vhd -work $(LEDA_WORK) >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+	$(VCOMP) /home/ecegrid/a/mg56/ece337/project_new/source/sd_control.vhd -W $(LEDA_WORK)
+	$(TOUCH) $(GARBAGE)/sd_control.vhd_13
+
+$(GARBAGE)/FifoRead.vhd_1: /home/ecegrid/a/mg56/ece337/project_new/source/FifoRead.vhd
+	echo read_files /home/ecegrid/a/mg56/ece337/project_new/source/FifoRead.vhd -work $(LEDA_WORK) >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+	$(VCOMP) /home/ecegrid/a/mg56/ece337/project_new/source/FifoRead.vhd -W $(LEDA_WORK)
+	$(TOUCH) $(GARBAGE)/FifoRead.vhd_1
+
+$(GARBAGE)/lockingDetector.vhd_12: /home/ecegrid/a/mg56/ece337/project_new/source/lockingDetector.vhd
+	echo read_files /home/ecegrid/a/mg56/ece337/project_new/source/lockingDetector.vhd -work $(LEDA_WORK) >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+	$(VCOMP) /home/ecegrid/a/mg56/ece337/project_new/source/lockingDetector.vhd -W $(LEDA_WORK)
+	$(TOUCH) $(GARBAGE)/lockingDetector.vhd_12
+
+$(GARBAGE)/controller.vhd_9: /home/ecegrid/a/mg56/ece337/project_new/source/controller.vhd
+	echo read_files /home/ecegrid/a/mg56/ece337/project_new/source/controller.vhd -work $(LEDA_WORK) >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+	$(VCOMP) /home/ecegrid/a/mg56/ece337/project_new/source/controller.vhd -W $(LEDA_WORK)
+	$(TOUCH) $(GARBAGE)/controller.vhd_9
+
+$(GARBAGE)/tristate.vhd_17: /home/ecegrid/a/mg56/ece337/project_new/source/tristate.vhd
+	echo read_files /home/ecegrid/a/mg56/ece337/project_new/source/tristate.vhd -work $(LEDA_WORK) >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+	$(VCOMP) /home/ecegrid/a/mg56/ece337/project_new/source/tristate.vhd -W $(LEDA_WORK)
+	$(TOUCH) $(GARBAGE)/tristate.vhd_17
+
+$(GARBAGE)/sniffer_top.vhd_15: /home/ecegrid/a/mg56/ece337/project_new/source/sniffer_top.vhd
+	echo read_files /home/ecegrid/a/mg56/ece337/project_new/source/sniffer_top.vhd -work $(LEDA_WORK) >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+	$(VCOMP) /home/ecegrid/a/mg56/ece337/project_new/source/sniffer_top.vhd -W $(LEDA_WORK)
+	$(TOUCH) $(GARBAGE)/sniffer_top.vhd_15
+
+$(GARBAGE)/interceptor.vhd_11: /home/ecegrid/a/mg56/ece337/project_new/source/interceptor.vhd
+	echo read_files /home/ecegrid/a/mg56/ece337/project_new/source/interceptor.vhd -work $(LEDA_WORK) >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+	$(VCOMP) /home/ecegrid/a/mg56/ece337/project_new/source/interceptor.vhd -W $(LEDA_WORK)
+	$(TOUCH) $(GARBAGE)/interceptor.vhd_11
+
+$(GARBAGE)/FifoWrite.vhd_3: /home/ecegrid/a/mg56/ece337/project_new/source/FifoWrite.vhd
+	echo read_files /home/ecegrid/a/mg56/ece337/project_new/source/FifoWrite.vhd -work $(LEDA_WORK) >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+	$(VCOMP) /home/ecegrid/a/mg56/ece337/project_new/source/FifoWrite.vhd -W $(LEDA_WORK)
+	$(TOUCH) $(GARBAGE)/FifoWrite.vhd_3
+
+$(GARBAGE)/decoder.vhd_10: /home/ecegrid/a/mg56/ece337/project_new/source/decoder.vhd
+	echo read_files /home/ecegrid/a/mg56/ece337/project_new/source/decoder.vhd -work $(LEDA_WORK) >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+	$(VCOMP) /home/ecegrid/a/mg56/ece337/project_new/source/decoder.vhd -W $(LEDA_WORK)
+	$(TOUCH) $(GARBAGE)/decoder.vhd_10
+
+$(GARBAGE)/SEE_det.vhd_5: /home/ecegrid/a/mg56/ece337/project_new/source/SEE_det.vhd
+	echo read_files /home/ecegrid/a/mg56/ece337/project_new/source/SEE_det.vhd -work $(LEDA_WORK) >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+	$(VCOMP) /home/ecegrid/a/mg56/ece337/project_new/source/SEE_det.vhd -W $(LEDA_WORK)
+	$(TOUCH) $(GARBAGE)/SEE_det.vhd_5
+
+$(GARBAGE)/FifoRam.vhd_0: /home/ecegrid/a/mg56/ece337/project_new/source/FifoRam.vhd
+	echo read_files /home/ecegrid/a/mg56/ece337/project_new/source/FifoRam.vhd -work $(LEDA_WORK) >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+	$(VCOMP) /home/ecegrid/a/mg56/ece337/project_new/source/FifoRam.vhd -W $(LEDA_WORK)
+	$(TOUCH) $(GARBAGE)/FifoRam.vhd_0
+
+$(GARBAGE)/SpiXmitSR.vhd_7: /home/ecegrid/a/mg56/ece337/project_new/source/SpiXmitSR.vhd
+	echo read_files /home/ecegrid/a/mg56/ece337/project_new/source/SpiXmitSR.vhd -work $(LEDA_WORK) >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+	$(VCOMP) /home/ecegrid/a/mg56/ece337/project_new/source/SpiXmitSR.vhd -W $(LEDA_WORK)
+	$(TOUCH) $(GARBAGE)/SpiXmitSR.vhd_7
+
+$(GARBAGE)/FifoTop.vhd_2: /home/ecegrid/a/mg56/ece337/project_new/source/FifoTop.vhd
+	echo read_files /home/ecegrid/a/mg56/ece337/project_new/source/FifoTop.vhd -work $(LEDA_WORK) >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+	$(VCOMP) /home/ecegrid/a/mg56/ece337/project_new/source/FifoTop.vhd -W $(LEDA_WORK)
+	$(TOUCH) $(GARBAGE)/FifoTop.vhd_2
+
+$(GARBAGE)/usbInterceptor.vhd_18: /home/ecegrid/a/mg56/ece337/project_new/source/usbInterceptor.vhd
+	echo read_files /home/ecegrid/a/mg56/ece337/project_new/source/usbInterceptor.vhd -work $(LEDA_WORK) >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+	$(VCOMP) /home/ecegrid/a/mg56/ece337/project_new/source/usbInterceptor.vhd -W $(LEDA_WORK)
+	$(TOUCH) $(GARBAGE)/usbInterceptor.vhd_18
+

@@ -1,0 +1,42 @@
+#!/bin/ksh
+
+#
+# File LEDA_Makelibs
+# Created by LEDA VHDL*Verilog Makefile Generator (v2.1.0.MP), Apr 22, 2012
+#
+
+V="/package/eda/synopsys/leda-E-2010.12/amd64/bin/v -M +no_lvs_env  -c -z -i -k93e -log /home/ecegrid/a/mg56/ece337/project_new/leda-logs/compiler.log -full_log -snote -config_file /home/ecegrid/a/ece337/Class0.5u/.leda_config.tcl"
+
+  P="${LEDA_PATH}/amd64/bin/project.csh"
+
+touch /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+#
+# create STD and IEEE libraries
+#
+
+# $V createstd
+echo project_specify_libraries -resource \{ STD ${LEDA_PATH}/amd64/resources/resource_93/STD \} -append >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+echo project_specify_libraries -resource \{ IEEE ${LEDA_PATH}/amd64/resources/resource_93/IEEE \} -append >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+# $V -w ${LEDA_PATH}/amd64/resources/resource_93/STD add STD ${LEDA_PATH}/amd64/resources/resource_93/STD
+# $V -w ${LEDA_PATH}/amd64/resources/resource_93/IEEE add STD ${LEDA_PATH}/amd64/resources/resource_93/STD
+# $V -w ${LEDA_PATH}/amd64/resources/resource_93/IEEE add IEEE ${LEDA_PATH}/amd64/resources/resource_93/IEEE
+
+#
+# create libraries
+#
+
+$V new LEDA_WORK  +no_lvs_env
+
+#
+# add library dependecies
+#
+$V -w LEDA_WORK add LEDA_WORK LEDA_WORK
+$V -w LEDA_WORK add STD ${LEDA_PATH}/amd64/resources/resource_93/STD
+$V -w LEDA_WORK add IEEE ${LEDA_PATH}/amd64/resources/resource_93/IEEE
+$V -w LEDA_WORK add SNPS_EXT ${LEDA_PATH}/amd64/resources/resource_93/SNPS_EXT
+echo project_specify_libraries -resource \{ SNPS_EXT ${LEDA_PATH}/amd64/resources/resource_93/SNPS_EXT \} -append >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+$V -w LEDA_WORK add SYNOPSYS ${LEDA_PATH}/amd64/resources/resource_93/SYNOPSYS
+echo project_specify_libraries -resource \{ SYNOPSYS ${LEDA_PATH}/amd64/resources/resource_93/SYNOPSYS \} -append >> /home/ecegrid/a/mg56/ece337/project_new/leda.pro
+
+# execution OK
+exit 0

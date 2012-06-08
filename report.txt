@@ -1,0 +1,182 @@
+Coverage Report Summary Data by file
+
+File: source/FifoRam.vhd
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                       18        18         0     100.0
+    Branches                     9         9         0     100.0
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    Toggle Bins                 48        48         0     100.0
+
+File: source/FifoRead.vhd
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                        5         5         0     100.0
+    Branches                     7         7         0     100.0
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    Toggle Bins                 12        12         0     100.0
+
+File: source/FifoTop.vhd
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                        2         2         0     100.0
+    Branches                     0         0         0     100.0
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    Toggle Bins                 44        44         0     100.0
+
+File: source/FifoWrite.vhd
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                        5         5         0     100.0
+    Branches                     7         7         0     100.0
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    Toggle Bins                 12        12         0     100.0
+
+File: source/NRZIdecode.vhd
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                        7         7         0     100.0
+    Branches                     9         9         0     100.0
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    Toggle Bins                  2         2         0     100.0
+
+File: source/SEE_det.vhd
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                       17        17         0     100.0
+    Branches                     9         9         0     100.0
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    Toggle Bins                 16        16         0     100.0
+
+File: source/SpiClkDivide.vhd
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                       19        19         0     100.0
+    Branches                    25        23         2      92.0
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    Toggle Bins                 44        44         0     100.0
+
+File: source/SpiXmitSR.vhd
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                       15        15         0     100.0
+    Branches                    10        10         0     100.0
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    Toggle Bins                 86        86         0     100.0
+
+File: source/computerInterceptor.vhd
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                       26        26         0     100.0
+    Branches                    10        10         0     100.0
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    Toggle Bins                 18        16         2      88.8
+
+File: source/controller.vhd
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                      104       100         4      96.1
+    Branches                    51        47         4      92.1
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    Toggle Bins                 72        72         0     100.0
+
+File: source/decoder.vhd
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                       81        73         8      90.1
+    Branches                    46        41         5      89.1
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    Toggle Bins                126       124         2      98.4
+
+File: source/interceptor.vhd
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                        2         2         0     100.0
+    Branches                     6         6         0     100.0
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    Toggle Bins                 50        50         0     100.0
+
+File: source/lockingDetector.vhd
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                       65        54        11      83.0
+    Branches                    32        25         7      78.1
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    Toggle Bins                 38        35         3      92.1
+
+File: source/sd_control.vhd
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                      150       149         1      99.3
+    Branches                   111       110         1      99.0
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    Toggle Bins                128       116        12      90.6
+
+File: source/shift_greg.vhd
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                       12        12         0     100.0
+    Branches                     9         9         0     100.0
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    Toggle Bins                 64        64         0     100.0
+
+File: source/sniffer_top.vhd
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                        1         1         0     100.0
+    Branches                     0         0         0     100.0
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    Toggle Bins                108       106         2      98.1
+
+File: source/tb_sniffer_top.vhd
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                      319       319         0     100.0
+    Branches                     2         2         0     100.0
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    Toggle Bins                243       160        83      65.8
+
+File: source/timer.vhd
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                       66        46        20      69.6
+    Branches                    62        42        20      67.7
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    Toggle Bins                 34        34         0     100.0
+
+File: source/tristate.vhd
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                        2         2         0     100.0
+    Branches                     4         4         0     100.0
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    Toggle Bins                  0         0         0     100.0
+
+File: source/usbInterceptor.vhd
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                       84        84         0     100.0
+    Branches                    62        62         0     100.0
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    Toggle Bins                 62        62         0     100.0
+

@@ -1,0 +1,53 @@
+#***************************************************
+# Timing constraint file in PT format
+#
+# - Note: This is all case-sensitive
+#***************************************************
+
+#***************************************************
+# Clock Constraints	
+#***************************************************
+create_clock  -period 7 -waveform { 0.0000000 3.5000000}\
+   [get_ports {clk}]
+
+
+#***************************************************
+# Input Pin Constraints
+#***************************************************	 
+set_input_delay -clock clk 1.0000 \
+   [get_ports {rst}] 
+set_input_delay -clock clk 1.0000 \
+   [get_ports {dataMinusComputer}] 
+set_input_delay -clock clk 1.0000 \
+   [get_ports {dataMinusUsb}] 
+set_input_delay -clock clk 1.0000 \
+   [get_ports {dataPlusComputer}] 
+set_input_delay -clock clk 1.0000 \
+   [get_ports {dataPlusUsb}]  
+
+#***************************************************
+# Output Pin Constraints
+#***************************************************
+set_output_delay -clock clk 1.0000 \
+   [get_ports {dataOut}] 
+set_output_delay -clock clk 1.0000 \
+   [get_ports {sd_enable}] 
+set_output_delay -clock clk 1.0000 \
+   [get_ports {scl}] 
+
+
+#***************************************************
+# Pin Driving Cells (Needed only for Inputs)
+#***************************************************
+set_driving_cell -lib_cell INVX8\
+   [get_ports {clk}] 
+set_driving_cell -lib_cell INVX8\
+   [get_ports {rst}] 
+set_driving_cell -lib_cell INVX8\
+   [get_ports {dataMinusComputer}] 
+set_driving_cell -lib_cell INVX8\
+   [get_ports {dataMinusUsb}] 
+set_driving_cell -lib_cell INVX8\
+   [get_ports {dataPlusComputer}]
+set_driving_cell -lib_cell INVX8\
+   [get_ports {dataPlusUsb}]

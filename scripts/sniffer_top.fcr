@@ -1,0 +1,28 @@
+# Step 1:  Read in the source file
+analyze -format vhdl -lib WORK {FifoRam.vhd FifoRead.vhd FifoWrite.vhd FifoTop.vhd SpiClkDivide.vhd SpiXmitSR.vhd controller.vhd SEE_det.vhd NRZIdecode.vhd shift_greg.vhd timer.vhd decoder.vhd computerInterceptor.vhd lockingDetector.vhd tristate.vhd usbInterceptor.vhd interceptor.vhd sd_control.vhd sniffer_top.vhd}
+elaborate sniffer_top -arch "struct" -lib WORK -update
+
+uniquify
+# Step 2: Set design constraints
+# Uncomment below to set timing, area, power, etc. constraints
+# set_max_delay <delay> -from "<input>" -to "<output>"
+set_max_area 10000
+# set_max_total_power <power> mW
+
+# Step 3: Compile the design
+compile -map_effort high
+
+# Step 4: Output reports
+current_design .
+report_timing -path full -delay max -max_paths 1 -nworst 1 > reports/$current_design.rep
+report_area >> reports/$current_design.rep
+report_power -hier >> reports/$current_design.rep
+
+# Step 5: Output final VHDL and Verilog files
+write -format vhdl -hierarchy -output "mapped/$current_design.vhd"
+write -format verilog -hierarchy -output "mapped/$current_design.v"
+echo "\nScript Done\n"
+echo "\nChecking Design\n"
+check_design
+exit
+

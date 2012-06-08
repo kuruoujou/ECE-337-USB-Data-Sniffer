@@ -1,0 +1,221 @@
+-----------------------------------------------------------------
+Checker: LEDA v E-2010.12
+Date: Mon Apr 23 12:47:37 2012
+
+
+Command line: Run from GUI on the unit SNIFFER_TOP of library /home/ecegrid/a/mg56/ece337/project_new/leda-libs/LEDA_WORK of the project leda 
+    chip level checker options:  -top SNIFFER_TOP
+
+-----------------------------------------------------------------
+Environment variables:
+LEDA_PATH /package/eda/synopsys/leda-E-2010.12
+LEDA_CONFIG /home/ecegrid/a/ece337/Class0.5u/.leda_config.tcl
+LEDA_RESOURCES Not defined
+search_path Not defined
+link_library Not defined
+leda plibs files: /package/eda/synopsys/leda-E-2010.12/resources/resource_93/plibs
+
+-----------------------------------------------------------------
+
+-----------------------------------------------------------------
+--  Summary
+
+--  Rules violated	 :    3
+--	Including FATAL  :    0
+--	Including ERROR  :    0
+--	Including WARNING:   13
+--	Including NOTE  :    0
+
+--  Violations per rule:
+--
+--	   1 x B_3602: Moore style description of state machines is recommended
+--	   5 x B_3607: The number of states in a state machine should be a power of 2
+--	   7 x G_546_1: Avoid internally generated reset/set/load  
+--  	---------------------
+--  	Total violations:   13
+
+--  Files with error   :    6
+
+--  Violations per file:
+--
+--	   4 in controller.vhd
+--	   1 in decoder.vhd
+--	   3 in lockingDetector.vhd
+--	   2 in sd_control.vhd
+--	   2 in timer.vhd
+--	   1 in usbInterceptor.vhd
+--  	---------------------
+--  	Total violations:   13
+
+
+-----------------------------------------------------------------
+Checker Deselection Pragma summary:
+
+-----------------------------------------------------------------
+--                  VHDL violations                            --
+-----------------------------------------------------------------
+
+	Violations in library /home/ecegrid/a/mg56/ece337/project_new/leda-libs/LEDA_WORK 
+
+
+
+Violations per unit:
+	1 violations in unit CONTROLLER_ARCH/CONTROLLER (/home/ecegrid/a/mg56/ece337/project_new/source/controller.vhd)
+	1 violations in unit BLK/DECODER (/home/ecegrid/a/mg56/ece337/project_new/source/decoder.vhd)
+	2 violations in unit SD_ARCH/SD_CONTROL (/home/ecegrid/a/mg56/ece337/project_new/source/sd_control.vhd)
+	1 violations in unit FSM/TIMER (/home/ecegrid/a/mg56/ece337/project_new/source/timer.vhd)
+	1 violations in unit BEHAVIORAL/USBINTERCEPTOR (/home/ecegrid/a/mg56/ece337/project_new/source/usbInterceptor.vhd)
+Unit without violation:
+	0 violations in unit SNIFFER_TOP (/home/ecegrid/a/mg56/ece337/project_new/source/sniffer_top.vhd)
+	0 violations in unit USBINTERCEPTOR (/home/ecegrid/a/mg56/ece337/project_new/source/usbInterceptor.vhd)
+	0 violations in unit COMPUTERINTERCEPTOR (/home/ecegrid/a/mg56/ece337/project_new/source/computerInterceptor.vhd)
+	0 violations in unit SPIXMITSR (/home/ecegrid/a/mg56/ece337/project_new/source/SpiXmitSR.vhd)
+	0 violations in unit FIFORAM (/home/ecegrid/a/mg56/ece337/project_new/source/FifoRam.vhd)
+	0 violations in unit FIFOTOP (/home/ecegrid/a/mg56/ece337/project_new/source/FifoTop.vhd)
+	0 violations in unit SD_CONTROL (/home/ecegrid/a/mg56/ece337/project_new/source/sd_control.vhd)
+	0 violations in unit SPICLKDIVIDE (/home/ecegrid/a/mg56/ece337/project_new/source/SpiClkDivide.vhd)
+	0 violations in unit SHIFT_GREG (/home/ecegrid/a/mg56/ece337/project_new/source/shift_greg.vhd)
+	0 violations in unit FIFOREAD (/home/ecegrid/a/mg56/ece337/project_new/source/FifoRead.vhd)
+	0 violations in unit DECODER (/home/ecegrid/a/mg56/ece337/project_new/source/decoder.vhd)
+	0 violations in unit CONTROLLER (/home/ecegrid/a/mg56/ece337/project_new/source/controller.vhd)
+	0 violations in unit SEE_DET (/home/ecegrid/a/mg56/ece337/project_new/source/SEE_det.vhd)
+	0 violations in unit LOCKINGDETECTOR (/home/ecegrid/a/mg56/ece337/project_new/source/lockingDetector.vhd)
+	0 violations in unit TRISTATE (/home/ecegrid/a/mg56/ece337/project_new/source/tristate.vhd)
+	0 violations in unit INTERCEPTOR (/home/ecegrid/a/mg56/ece337/project_new/source/interceptor.vhd)
+	0 violations in unit TIMER (/home/ecegrid/a/mg56/ece337/project_new/source/timer.vhd)
+	0 violations in unit NRZIDECODE (/home/ecegrid/a/mg56/ece337/project_new/source/NRZIdecode.vhd)
+	0 violations in unit FIFOWRITE (/home/ecegrid/a/mg56/ece337/project_new/source/FifoWrite.vhd)
+	0 violations in unit NRZI/NRZIDECODE (/home/ecegrid/a/mg56/ece337/project_new/source/NRZIdecode.vhd)
+	0 violations in unit STRUCT/INTERCEPTOR (/home/ecegrid/a/mg56/ece337/project_new/source/interceptor.vhd)
+	0 violations in unit FIFOWRITE_ARCH/FIFOWRITE (/home/ecegrid/a/mg56/ece337/project_new/source/FifoWrite.vhd)
+	0 violations in unit BEHAVIORAL/LOCKINGDETECTOR (/home/ecegrid/a/mg56/ece337/project_new/source/lockingDetector.vhd)
+	0 violations in unit SHIFT/SHIFT_GREG (/home/ecegrid/a/mg56/ece337/project_new/source/shift_greg.vhd)
+	0 violations in unit SOP_EOP/SEE_DET (/home/ecegrid/a/mg56/ece337/project_new/source/SEE_det.vhd)
+	0 violations in unit STRUCT/FIFOTOP (/home/ecegrid/a/mg56/ece337/project_new/source/FifoTop.vhd)
+	0 violations in unit FIFOREAD_ARCH/FIFOREAD (/home/ecegrid/a/mg56/ece337/project_new/source/FifoRead.vhd)
+	0 violations in unit SPICLKDIVIDE_ARCH/SPICLKDIVIDE (/home/ecegrid/a/mg56/ece337/project_new/source/SpiClkDivide.vhd)
+	0 violations in unit BEHAVIORAL/COMPUTERINTERCEPTOR (/home/ecegrid/a/mg56/ece337/project_new/source/computerInterceptor.vhd)
+	0 violations in unit STRUCT/SNIFFER_TOP (/home/ecegrid/a/mg56/ece337/project_new/source/sniffer_top.vhd)
+	0 violations in unit BEHAVIORAL/TRISTATE (/home/ecegrid/a/mg56/ece337/project_new/source/tristate.vhd)
+	0 violations in unit FIFORAM_ARCH/FIFORAM (/home/ecegrid/a/mg56/ece337/project_new/source/FifoRam.vhd)
+	0 violations in unit SPIXMITSR_ARCH/SPIXMITSR (/home/ecegrid/a/mg56/ece337/project_new/source/SpiXmitSR.vhd)
+
+Violations per file:
+	1 violations in file /home/ecegrid/a/mg56/ece337/project_new/source/usbInterceptor.vhd (213 lines)
+	2 violations in file /home/ecegrid/a/mg56/ece337/project_new/source/sd_control.vhd (296 lines)
+	1 violations in file /home/ecegrid/a/mg56/ece337/project_new/source/decoder.vhd (262 lines)
+	1 violations in file /home/ecegrid/a/mg56/ece337/project_new/source/controller.vhd (206 lines)
+	1 violations in file /home/ecegrid/a/mg56/ece337/project_new/source/timer.vhd (193 lines)
+File without violation:
+
+Total number of violations: 6
+Total number of source code lines: 2503
+
+Violations per rule:
+
+Policy "RMM_RTL_CODING_GUIDELINES", Ruleset "BASIC_CODING_PRACTICES":
+	<violated>/<checked> x <label> [<severity>]:<message>
+	--------------------   ------- ----------------------
+	0/76 x R_521_10 [ERROR]: "Always use descending range for multi-bit signals and ports"
+	0/1586 x R_529_1 [ERROR]: "VHDL or Verilog reserved words (<%item>) cannot be used as identifiers"
+
+Policy "LEDA", Ruleset "DESIGN_STRUCTURE":
+	<violated>/<checked> x <label> [<severity>]:<message>
+	--------------------   ------- ----------------------
+	0/429 x B_1002 [WARNING]: "Port declaration <%item> is unused or partially unused"
+
+Policy "LEDA", Ruleset "CLOCKS":
+	<violated>/<checked> x <label> [<severity>]:<message>
+	--------------------   ------- ----------------------
+	0/15 x B_1204 [WARNING]: "Multi-bit expression used as clock"
+
+Policy "LEDA", Ruleset "RTL_SYNTHESIS":
+	<violated>/<checked> x <label> [<severity>]:<message>
+	--------------------   ------- ----------------------
+	0/28 x B_2011 [WARNING]: "Variable is not always initialized in process body before being read"
+
+Policy "LEDA", Ruleset "STATEMENTS":
+	<violated>/<checked> x <label> [<severity>]:<message>
+	--------------------   ------- ----------------------
+	0/12 x B_3410 [WARNING]: "X in case expression"
+	0/28 x B_3419 [ERROR]: "Missing signal <%item> in sensitivity list"
+
+Policy "LEDA", Ruleset "STATE_MACHINES":
+	<violated>/<checked> x <label> [<severity>]:<message>
+	--------------------   ------- ----------------------
+	1/7 x B_3602 [WARNING]: "Moore style description of state machines is recommended"
+	0/7 x B_3604 [WARNING]: "Assign a default state to the state machines"
+	0/7 x B_3605_B [WARNING]: "Use an enumerated type to define the state vector of a state machine"
+	5/7 x B_3607 [WARNING]: "The number of states in a state machine should be a power of 2"
+
+Policy "DC", Ruleset "RTL":
+	<violated>/<checked> x <label> [<severity>]:<message>
+	--------------------   ------- ----------------------
+	0/21 x DCHDL_115 [ERROR]: "Illegal mixing of named and unnamed port association"
+
+Policy "FORMALITY", Ruleset "SIMULATION_MISMATCH":
+	<violated>/<checked> x <label> [<severity>]:<message>
+	--------------------   ------- ----------------------
+	0/12 x FM_2_10 [ERROR]: "Using X,Z values or ? in case items is not recommended (such items may be ignored by synthesis tools)"
+	0/6961 x FM_2_4 [ERROR]: "Assignment to X is not recommended (handled differently by simulation and synthesis tools)"
+	0/21 x FM_2_7 [WARNING]: "Use named association in port map"
+	0/317 x FM_2_9 [ERROR]: "Using X,Z values or ? for comparison is not recommended (differently handled by simulation/synthesis tools)"
+
+
+-----------------------------------------------------------------
+--                    DESIGN violations                        --
+-----------------------------------------------------------------
+
+Violations per rule:
+
+Policy: LEDA  Ruleset: DESIGN_STRUCTURE
+	<violated>/<checked> x <label> [<severity>]:<message>
+	------- --------------------- ----------------------
+	0/1 x C_1000 [ERROR]: "Asynchronous feedback loop detected"
+	0/1 x C_1007 [WARNING]: "Pulse generator detected"
+	0/1 x C_1009 [ERROR]: "Multiple non-tristate drivers to signal <%item> detected"
+	0/1 x C_1001 [ERROR]: "Flipflop with fixed value data input is detected"
+	0/1 x C_1203 [ERROR]: "Internally generated clock detected (chip level)"
+	0/1 x C_1201 [ERROR]: "Clocks must not be used as data"
+	0/1 x C_1204 [ERROR]: "No gated clock except in clock generator CKGEN."
+	0/1 x C_1406 [ERROR]: "Register with no reset/set is detected"
+
+Policy: RMM_RTL_CODING_GUIDELINES  Ruleset: CLOCKS_AND_RESETS
+	<violated>/<checked> x <label> [<severity>]:<message>
+	------- --------------------- ----------------------
+	2/1 x G_546_1 [WARNING]: "Avoid internally generated reset/set/load <%item>"
+	5/1 x G_546_1 [WARNING]: "Avoid internally generated reset/set/load <%item>"
+Total number of violations: 7
+
+-----------------------------------------------------------------
+--                    DESIGN REPORT                            --
+-----------------------------------------------------------------
+
+Name of the top:	SNIFFER_TOP
+
+Library containing the top unit:	/home/ecegrid/a/mg56/ece337/project_new/leda-libs/LEDA_WORK
+
+Number of design pins:	9
+
+Number of hierarchy levels in the design:	3
+
+Number of flipflops and latches that LEDA tools has inferred
+	Number of flipflops:	166
+	Number of latches:	0
+
+Number of clock origins:	1
+Number of reset origins:	3
+List of clock origins:
+	SNIFFER_TOP.CLK
+
+List of reset origins:
+	SNIFFER_TOP.RST
+	SNIFFER_TOP.U_0.GREGI.~iw1
+	SNIFFER_TOP.U_3.U_1.GREG.~iw1
+
+List of source paths:
+	$0 = /home/ecegrid/a/mg56/ece337/project_new/source/controller.vhd
+	$1 = /home/ecegrid/a/mg56/ece337/project_new/source/timer.vhd
+	$2 = /home/ecegrid/a/mg56/ece337/project_new/source/decoder.vhd
+	$3 = /home/ecegrid/a/mg56/ece337/project_new/source/NRZIdecode.vhd
+	$4 = /home/ecegrid/a/mg56/ece337/project_new/source/lockingDetector.vhd

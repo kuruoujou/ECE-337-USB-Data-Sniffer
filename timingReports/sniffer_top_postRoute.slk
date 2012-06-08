@@ -1,0 +1,345 @@
+# Format: clock  timeReq  slackR/slackF  setupR/setupF  instName/pinName   # cycle(s)
+clk(R)->clk(R)	6.789    0.161/*         0.211/*         I0/U_4/\tsrDataReg_reg[6] /D    1
+clk(R)->clk(R)	6.790    0.175/*         0.210/*         I0/U_4/\tsrDataReg_reg[7] /D    1
+clk(R)->clk(R)	6.790    0.177/*         0.210/*         I0/U_4/\tsrDataReg_reg[5] /D    1
+clk(R)->clk(R)	6.790    0.178/*         0.210/*         I0/U_4/\tsrDataReg_reg[3] /D    1
+clk(R)->clk(R)	6.792    0.183/*         0.208/*         I0/U_4/\tsrDataReg_reg[1] /D    1
+clk(R)->clk(R)	6.790    0.188/*         0.210/*         I0/U_4/\tsrDataReg_reg[4] /D    1
+clk(R)->clk(R)	6.790    0.191/*         0.210/*         I0/U_4/\tsrDataReg_reg[2] /D    1
+clk(R)->clk(R)	6.792    0.225/*         0.208/*         I0/U_4/\tsrDataReg_reg[0] /D    1
+clk(R)->clk(R)	6.802    0.859/*         0.198/*         I0/U_6/\count1_reg[4] /D    1
+clk(R)->clk(R)	6.802    0.859/*         0.198/*         I0/U_6/\count1_reg[5] /D    1
+clk(R)->clk(R)	6.802    0.865/*         0.198/*         I0/U_6/\count1_reg[2] /D    1
+clk(R)->clk(R)	6.803    0.867/*         0.197/*         I0/U_6/\count1_reg[6] /D    1
+clk(R)->clk(R)	6.803    0.868/*         0.197/*         I0/U_6/\count1_reg[0] /D    1
+clk(R)->clk(R)	6.804    0.875/*         0.196/*         I0/U_6/\count1_reg[3] /D    1
+clk(R)->clk(R)	6.804    0.878/*         0.196/*         I0/U_6/\count1_reg[1] /D    1
+clk(R)->clk(R)	6.795    0.938/*         0.205/*         I0/U_6/\count2_reg[1] /D    1
+clk(R)->clk(R)	6.797    0.947/*         0.203/*         I0/U_6/\count2_reg[0] /D    1
+clk(R)->clk(R)	6.797    0.949/*         0.203/*         I0/U_6/\count2_reg[2] /D    1
+clk(R)->clk(R)	6.799    0.964/*         0.201/*         I0/U_6/\count2_reg[3] /D    1
+clk(R)->clk(R)	6.825    1.349/*         0.175/*         I0/U_6/\count2_reg[4] /D    1
+clk(R)->clk(R)	6.820    1.513/*         0.180/*         I0/U_5/\count_reg[1] /D    1
+clk(R)->clk(R)	6.820    1.514/*         0.180/*         I0/U_5/\count_reg[0] /D    1
+clk(R)->clk(R)	6.820    1.518/*         0.180/*         I0/U_5/\count_reg[2] /D    1
+clk(R)->clk(R)	6.820    1.518/*         0.180/*         I0/U_5/\count_reg[5] /D    1
+clk(R)->clk(R)	6.821    1.523/*         0.179/*         I0/U_5/\count_reg[6] /D    1
+clk(R)->clk(R)	6.821    1.525/*         0.179/*         I0/U_5/\count_reg[8] /D    1
+clk(R)->clk(R)	6.822    1.525/*         0.178/*         I0/U_5/\count_reg[3] /D    1
+clk(R)->clk(R)	6.822    1.527/*         0.178/*         I0/U_5/\count_reg[4] /D    1
+clk(R)->clk(R)	6.821    1.528/*         0.179/*         I0/U_5/\count_reg[7] /D    1
+clk(R)->clk(R)	6.806    2.017/*         0.194/*         I0/U_6/\sd_reg[1] /D    1
+clk(R)->clk(R)	6.795    2.071/*         0.205/*         I0/U_5/sclReg_reg/D    1
+clk(R)->clk(R)	6.804    2.197/*         0.196/*         I0/U_6/\sd_reg[2] /D    1
+clk(R)->clk(R)	6.798    2.271/*         0.202/*         I0/U_3/U_4/\state_reg[0] /D    1
+clk(R)->clk(R)	6.804    2.294/*         0.196/*         I0/U_3/U_4/\state_reg[2] /D    1
+clk(R)->clk(R)	6.795    2.298/*         0.205/*         I0/U_3/U_4/\state_reg[3] /D    1
+clk(R)->clk(R)	6.893    */2.300         */0.107         I0/U_6/\sd_reg[0] /D    1
+clk(R)->clk(R)	6.819    2.438/*         0.181/*         I0/U_2/U_0/\gregData_reg[3][1] /D    1
+clk(R)->clk(R)	6.820    2.445/*         0.180/*         I0/U_2/U_0/\gregData_reg[3][3] /D    1
+clk(R)->clk(R)	6.820    2.450/*         0.180/*         I0/U_2/U_0/\gregData_reg[3][4] /D    1
+clk(R)->clk(R)	6.817    2.451/*         0.183/*         I0/U_2/U_0/\gregData_reg[3][5] /D    1
+clk(R)->clk(R)	6.821    2.459/*         0.179/*         I0/U_2/U_0/\gregData_reg[1][3] /D    1
+clk(R)->clk(R)	6.821    2.462/*         0.179/*         I0/U_2/U_0/\gregData_reg[3][2] /D    1
+clk(R)->clk(R)	6.819    2.464/*         0.181/*         I0/U_2/U_0/\gregData_reg[1][1] /D    1
+clk(R)->clk(R)	6.821    2.465/*         0.179/*         I0/U_2/U_0/\gregData_reg[1][2] /D    1
+clk(R)->clk(R)	6.819    2.467/*         0.181/*         I0/U_2/U_0/\gregData_reg[1][4] /D    1
+clk(R)->clk(R)	6.820    2.468/*         0.180/*         I0/U_2/U_0/\gregData_reg[2][2] /D    1
+clk(R)->clk(R)	6.821    2.469/*         0.179/*         I0/U_2/U_0/\gregData_reg[3][6] /D    1
+clk(R)->clk(R)	6.820    2.470/*         0.180/*         I0/U_2/U_0/\gregData_reg[2][1] /D    1
+clk(R)->clk(R)	6.822    2.472/*         0.178/*         I0/U_2/U_0/\gregData_reg[3][0] /D    1
+clk(R)->clk(R)	6.822    2.476/*         0.178/*         I0/U_2/U_0/\gregData_reg[2][0] /D    1
+clk(R)->clk(R)	6.822    2.477/*         0.178/*         I0/U_2/U_0/\gregData_reg[3][7] /D    1
+clk(R)->clk(R)	6.821    2.479/*         0.179/*         I0/U_2/U_0/\gregData_reg[1][5] /D    1
+clk(R)->clk(R)	6.822    2.479/*         0.178/*         I0/U_2/U_0/\gregData_reg[1][0] /D    1
+clk(R)->clk(R)	6.819    2.480/*         0.181/*         I0/U_2/U_0/\gregData_reg[2][4] /D    1
+clk(R)->clk(R)	6.821    2.481/*         0.179/*         I0/U_2/U_0/\gregData_reg[2][5] /D    1
+clk(R)->clk(R)	6.820    2.483/*         0.180/*         I0/U_2/U_0/\gregData_reg[2][7] /D    1
+clk(R)->clk(R)	6.821    2.486/*         0.179/*         I0/U_2/U_0/\gregData_reg[2][3] /D    1
+clk(R)->clk(R)	6.822    2.488/*         0.178/*         I0/U_2/U_0/\gregData_reg[1][6] /D    1
+clk(R)->clk(R)	6.821    2.489/*         0.179/*         I0/U_2/U_0/\gregData_reg[2][6] /D    1
+clk(R)->clk(R)	6.823    2.493/*         0.177/*         I0/U_2/U_0/\gregData_reg[1][7] /D    1
+clk(R)->clk(R)	6.813    2.497/*         0.187/*         I0/U_3/U_4/\cntr_reg[4] /D    1
+clk(R)->clk(R)	6.820    2.540/*         0.180/*         I0/U_2/U_0/\gregData_reg[0][3] /D    1
+clk(R)->clk(R)	6.821    2.544/*         0.179/*         I0/U_2/U_0/\gregData_reg[0][1] /D    1
+clk(R)->clk(R)	6.819    2.553/*         0.181/*         I0/U_2/U_0/\gregData_reg[0][5] /D    1
+clk(R)->clk(R)	6.821    2.554/*         0.179/*         I0/U_2/U_0/\gregData_reg[0][4] /D    1
+clk(R)->clk(R)	6.822    2.562/*         0.178/*         I0/U_2/U_0/\gregData_reg[0][7] /D    1
+clk(R)->clk(R)	6.823    2.563/*         0.177/*         I0/U_2/U_0/\gregData_reg[0][0] /D    1
+clk(R)->clk(R)	6.823    2.564/*         0.177/*         I0/U_2/U_0/\gregData_reg[0][2] /D    1
+clk(R)->clk(R)	6.822    2.569/*         0.178/*         I0/U_2/U_0/\gregData_reg[0][6] /D    1
+clk(R)->clk(R)	6.865    */2.594         */0.135         I0/U_6/\sd_reg[3] /D    1
+clk(R)->clk(R)	6.799    2.652/*         0.201/*         I0/U_3/U_4/\state_reg[1] /D    1
+clk(R)->clk(R)	6.872    */2.685         */0.128         I0/U_3/U_4/\cntr_reg[2] /D    1
+clk(R)->clk(R)	6.873    */2.710         */0.127         I0/U_3/U_4/\cntr_reg[1] /D    1
+clk(R)->clk(R)	6.897    */2.738         */0.103         I0/U_3/U_4/\cntr_reg[3] /D    1
+clk(R)->clk(R)	6.000    */2.748         */1.000         sd_enable    1
+clk(R)->clk(R)	6.808    2.779/*         0.192/*         I0/U_6/\count3_reg[2] /D    1
+clk(R)->clk(R)	6.809    2.781/*         0.191/*         I0/U_6/\count3_reg[1] /D    1
+clk(R)->clk(R)	6.877    */2.789         */0.123         I0/U_6/\count3_reg[0] /D    1
+clk(R)->clk(R)	6.798    2.797/*         0.202/*         I0/U_3/U_4/\cntr_reg[0] /D    1
+clk(R)->clk(R)	6.865    */2.954         */0.135         I0/U_4/load1_reg/D    1
+clk(R)->clk(R)	6.892    */2.997         */0.108         I0/U_4/\tsrDummyReg_reg[0] /D    1
+clk(R)->clk(R)	6.809    3.078/*         0.191/*         I0/U_1/part2/cur_EGDE_reg/D    1
+clk(R)->clk(R)	6.613    */3.152         */0.387         I0/U_3/U_1/eopFound_reg/D    1
+clk(R)->clk(R)	6.806    3.159/*         0.194/*         I0/U_3/U_4/usbDataMinusOutputReg_reg/D    1
+clk(R)->clk(R)	6.976    3.169/*         0.024/*         I0/U_4/\tsrDataReg_reg[7] /S    1
+clk(R)->clk(R)	6.979    3.229/*         0.021/*         I0/U_4/\tsrDummyReg_reg[0] /S    1
+clk(R)->clk(R)	6.979    3.229/*         0.021/*         I0/U_4/\tsrDataReg_reg[6] /S    1
+clk(R)->clk(R)	6.818    3.293/*         0.182/*         I0/U_3/U_4/usbDataPlusOutputReg_reg/D    1
+clk(R)->clk(R)	7.122    3.315/*         -0.122/*        I0/U_6/\sd_reg[3] /R    1
+clk(R)->clk(R)	7.122    3.318/*         -0.122/*        I0/U_6/\sd_reg[2] /R    1
+clk(R)->clk(R)	7.122    3.319/*         -0.122/*        I0/U_6/\count2_reg[1] /R    1
+clk(R)->clk(R)	7.122    3.322/*         -0.122/*        I0/U_6/\count2_reg[2] /R    1
+clk(R)->clk(R)	7.122    3.322/*         -0.122/*        I0/U_6/\sd_reg[1] /R    1
+clk(R)->clk(R)	7.122    3.322/*         -0.122/*        I0/U_6/\count1_reg[6] /R    1
+clk(R)->clk(R)	6.888    */3.322         */0.112         I0/U_1/part2/cur_FEGDE_reg/D    1
+clk(R)->clk(R)	7.122    3.323/*         -0.122/*        I0/U_6/\count2_reg[4] /R    1
+clk(R)->clk(R)	6.810    3.364/*         0.190/*         I0/U_1/part2/cur_EOP_reg/D    1
+clk(R)->clk(R)	6.873    */3.367         */0.127         I0/U_0/dr1_reg/D    1
+clk(R)->clk(R)	7.128    3.372/*         -0.128/*        I0/U_6/\count2_reg[0] /R    1
+clk(R)->clk(R)	7.128    3.372/*         -0.128/*        I0/U_6/\count3_reg[1] /R    1
+clk(R)->clk(R)	7.128    3.372/*         -0.128/*        I0/U_6/\count3_reg[2] /R    1
+clk(R)->clk(R)	7.128    3.374/*         -0.128/*        I0/U_6/\count3_reg[0] /R    1
+clk(R)->clk(R)	7.128    3.377/*         -0.128/*        I0/U_4/load1_reg/R    1
+clk(R)->clk(R)	7.128    3.378/*         -0.128/*        I0/U_4/load_reg/R    1
+clk(R)->clk(R)	7.128    3.378/*         -0.128/*        I0/U_4/load2_reg/R    1
+clk(R)->clk(R)	6.988    3.448/*         0.012/*         I0/U_1/part3/data0_buf0_reg/S    1
+clk(R)->clk(R)	6.819    3.461/*         0.181/*         I0/U_2/U_2/\count_reg[1] /D    1
+clk(R)->clk(R)	6.877    */3.662         */0.123         I0/U_1/\CS_reg[0] /D    1
+clk(R)->clk(R)	6.814    3.740/*         0.186/*         I0/U_2/U_2/\count_reg[0] /D    1
+clk(R)->clk(R)	6.813    3.777/*         0.187/*         I0/U_0/\writeCount_reg[2] /D    1
+clk(R)->clk(R)	6.943    3.862/*         0.057/*         I0/U_1/part2/d1_reg/S    1
+clk(R)->clk(R)	6.943    3.863/*         0.057/*         I0/U_1/part2/d2_reg/S    1
+clk(R)->clk(R)	6.943    3.863/*         0.057/*         I0/U_3/U_1/computerLock_reg/S    1
+clk(R)->clk(R)	6.943    3.863/*         0.057/*         I0/U_3/U_0/computerDataPlusOutput_reg/S    1
+clk(R)->clk(R)	6.943    3.864/*         0.057/*         I0/U_3/U_1/lockc_reg/S    1
+clk(R)->clk(R)	6.944    3.866/*         0.056/*         I0/U_2/U_0/fifoEmptyReg_reg/S    1
+clk(R)->clk(R)	6.944    3.885/*         0.056/*         I0/U_4/\tsrDataReg_reg[5] /S    1
+clk(R)->clk(R)	6.944    3.886/*         0.056/*         I0/U_4/\tsrDataReg_reg[0] /S    1
+clk(R)->clk(R)	6.944    3.887/*         0.056/*         I0/U_4/\tsrDataReg_reg[1] /S    1
+clk(R)->clk(R)	6.944    3.890/*         0.056/*         I0/U_4/\tsrDataReg_reg[2] /S    1
+clk(R)->clk(R)	6.944    3.893/*         0.056/*         I0/U_4/\tsrDataReg_reg[3] /S    1
+clk(R)->clk(R)	6.944    3.897/*         0.056/*         I0/U_4/\tsrDataReg_reg[4] /S    1
+clk(R)->clk(R)	6.944    3.899/*         0.056/*         I0/U_3/U_4/usbDataPlusSync2_reg/S    1
+clk(R)->clk(R)	6.944    3.902/*         0.056/*         I0/U_3/U_4/usbDataPlusOutputReg_reg/S    1
+clk(R)->clk(R)	6.944    3.904/*         0.056/*         I0/U_3/U_0/usbInt1_reg/S    1
+clk(R)->clk(R)	6.944    3.904/*         0.056/*         I0/U_3/U_4/usbDataPlusSync_reg/S    1
+clk(R)->clk(R)	6.944    3.910/*         0.056/*         I0/U_1/part3/data_out_reg/S    1
+clk(R)->clk(R)	7.006    3.923/*         -0.006/*        I0/U_3/U_1/eopIn2_reg/R    1
+clk(R)->clk(R)	7.006    3.924/*         -0.006/*        I0/U_3/U_1/\state_reg[1] /R    1
+clk(R)->clk(R)	7.007    3.926/*         -0.007/*        I0/U_3/U_1/\state_reg[0] /R    1
+clk(R)->clk(R)	7.018    3.926/*         -0.018/*        I0/U_6/\count2_reg[3] /R    1
+clk(R)->clk(R)	7.019    3.926/*         -0.019/*        I0/U_6/\count1_reg[5] /R    1
+clk(R)->clk(R)	6.944    3.926/*         0.056/*         I0/U_3/U_0/computerDataPlusSync_reg/S    1
+clk(R)->clk(R)	7.019    3.927/*         -0.019/*        I0/U_6/\count1_reg[4] /R    1
+clk(R)->clk(R)	7.007    3.927/*         -0.007/*        I0/U_3/U_1/locku_reg/R    1
+clk(R)->clk(R)	7.019    3.927/*         -0.019/*        I0/U_3/U_4/\cntr_reg[1] /R    1
+clk(R)->clk(R)	7.007    3.927/*         -0.007/*        I0/U_3/U_1/usbLock_reg/R    1
+clk(R)->clk(R)	7.007    3.928/*         -0.007/*        I0/U_1/part2/cur_EGDE_reg/R    1
+clk(R)->clk(R)	7.007    3.929/*         -0.007/*        I0/U_3/U_0/eopInt1_reg/R    1
+clk(R)->clk(R)	7.019    3.930/*         -0.019/*        I0/U_6/\count1_reg[3] /R    1
+clk(R)->clk(R)	7.020    3.930/*         -0.020/*        I0/U_2/U_0/\gregData_reg[1][7] /R    1
+clk(R)->clk(R)	7.019    3.930/*         -0.019/*        I0/U_3/U_4/\cntr_reg[0] /R    1
+clk(R)->clk(R)	7.007    3.930/*         -0.007/*        I0/U_2/U_0/fifoFullReg_reg/R    1
+clk(R)->clk(R)	7.007    3.930/*         -0.007/*        I0/U_2/U_2/\count_reg[0] /R    1
+clk(R)->clk(R)	7.020    3.931/*         -0.020/*        I0/U_2/U_0/\gregData_reg[0][7] /R    1
+clk(R)->clk(R)	7.007    3.931/*         -0.007/*        I0/U_1/part5/cur_shift_en_reg/R    1
+clk(R)->clk(R)	7.020    3.932/*         -0.020/*        I0/U_2/U_0/\gregData_reg[0][6] /R    1
+clk(R)->clk(R)	7.020    3.933/*         -0.020/*        I0/U_6/\count1_reg[2] /R    1
+clk(R)->clk(R)	7.008    3.936/*         -0.008/*        I0/U_1/part5/\CS_reg[1] /R    1
+clk(R)->clk(R)	7.021    3.937/*         -0.021/*        I0/U_3/U_4/\cntr_reg[4] /R    1
+clk(R)->clk(R)	7.022    3.939/*         -0.022/*        I0/U_0/dr1_reg/R    1
+clk(R)->clk(R)	7.022    3.939/*         -0.022/*        I0/U_6/\count1_reg[0] /R    1
+clk(R)->clk(R)	7.008    3.941/*         -0.008/*        I0/U_2/U_0/\gregData_reg[3][6] /R    1
+clk(R)->clk(R)	7.008    3.942/*         -0.008/*        I0/U_2/U_0/\gregData_reg[2][6] /R    1
+clk(R)->clk(R)	7.008    3.942/*         -0.008/*        I0/U_1/part4/\pre_val_reg[6] /R    1
+clk(R)->clk(R)	7.023    3.942/*         -0.023/*        I0/U_6/\count1_reg[1] /R    1
+clk(R)->clk(R)	7.023    3.942/*         -0.023/*        I0/U_0/dr2_reg/R    1
+clk(R)->clk(R)	7.023    3.942/*         -0.023/*        I0/U_0/dr_reg/R    1
+clk(R)->clk(R)	7.008    3.942/*         -0.008/*        I0/U_2/U_0/\gregData_reg[2][7] /R    1
+clk(R)->clk(R)	7.023    3.943/*         -0.023/*        I0/U_6/\sd_reg[0] /R    1
+clk(R)->clk(R)	7.023    3.943/*         -0.023/*        I0/U_0/sd_reg/R    1
+clk(R)->clk(R)	7.009    3.944/*         -0.009/*        I0/U_2/U_0/\gregData_reg[1][6] /R    1
+clk(R)->clk(R)	7.023    3.945/*         -0.023/*        I0/U_2/U_1/\count_reg[1] /R    1
+clk(R)->clk(R)	7.023    3.945/*         -0.023/*        I0/U_3/U_4/\cntr_reg[3] /R    1
+clk(R)->clk(R)	7.009    3.946/*         -0.009/*        I0/U_2/U_0/\gregData_reg[0][5] /R    1
+clk(R)->clk(R)	7.009    3.946/*         -0.009/*        I0/U_2/U_0/\gregData_reg[1][5] /R    1
+clk(R)->clk(R)	7.023    3.947/*         -0.023/*        I0/U_3/U_4/\state_reg[1] /R    1
+clk(R)->clk(R)	7.009    3.947/*         -0.009/*        I0/U_2/U_2/\count_reg[1] /R    1
+clk(R)->clk(R)	7.023    3.949/*         -0.023/*        I0/U_1/part5/\CS_reg[3] /R    1
+clk(R)->clk(R)	7.023    3.950/*         -0.023/*        I0/U_1/part5/\CS_reg[2] /R    1
+clk(R)->clk(R)	7.010    3.952/*         -0.010/*        I0/U_6/sdc_reg/R    1
+clk(R)->clk(R)	7.010    3.955/*         -0.010/*        I0/U_6/sd_clock1_reg/R    1
+clk(R)->clk(R)	7.022    3.955/*         -0.022/*        I0/U_2/U_1/\count_reg[0] /R    1
+clk(R)->clk(R)	7.010    3.956/*         -0.010/*        I0/U_6/sd_clock2_reg/R    1
+clk(R)->clk(R)	7.010    3.957/*         -0.010/*        I0/U_2/U_0/\gregData_reg[3][2] /R    1
+clk(R)->clk(R)	7.010    3.958/*         -0.010/*        I0/U_1/part4/\pre_val_reg[5] /R    1
+clk(R)->clk(R)	7.022    3.959/*         -0.022/*        I0/U_3/U_4/\state_reg[2] /R    1
+clk(R)->clk(R)	7.022    3.960/*         -0.022/*        I0/U_1/part5/dclk_cur_reg/R    1
+clk(R)->clk(R)	7.010    3.963/*         -0.010/*        I0/U_2/U_0/\gregData_reg[3][7] /R    1
+clk(R)->clk(R)	7.010    3.966/*         -0.010/*        I0/U_1/part4/\pre_val_reg[7] /R    1
+clk(R)->clk(R)	7.011    3.966/*         -0.011/*        I0/U_2/U_0/\gregData_reg[0][2] /R    1
+clk(R)->clk(R)	7.010    3.966/*         -0.010/*        I0/U_1/part4/\pre_val_reg[4] /R    1
+clk(R)->clk(R)	7.011    3.967/*         -0.011/*        I0/U_2/U_0/\gregData_reg[0][4] /R    1
+clk(R)->clk(R)	7.011    3.968/*         -0.011/*        I0/U_2/U_0/\gregData_reg[1][4] /R    1
+clk(R)->clk(R)	7.011    3.969/*         -0.011/*        I0/U_2/U_0/\gregData_reg[2][5] /R    1
+clk(R)->clk(R)	7.021    3.969/*         -0.021/*        I0/U_3/U_4/\state_reg[0] /R    1
+clk(R)->clk(R)	7.011    3.970/*         -0.011/*        I0/U_2/U_0/\gregData_reg[3][4] /R    1
+clk(R)->clk(R)	7.011    3.971/*         -0.011/*        I0/U_1/part4/\pre_val_reg[2] /R    1
+clk(R)->clk(R)	7.011    3.971/*         -0.011/*        I0/U_2/U_0/\gregData_reg[3][5] /R    1
+clk(R)->clk(R)	7.023    3.972/*         -0.023/*        I0/U_3/U_4/\cntr_reg[2] /R    1
+clk(R)->clk(R)	7.023    3.972/*         -0.023/*        I0/U_3/U_4/usbDataMinusOutputReg_reg/R    1
+clk(R)->clk(R)	7.023    3.973/*         -0.023/*        I0/U_3/U_4/usbDataMinusSync2_reg/R    1
+clk(R)->clk(R)	7.021    3.973/*         -0.021/*        I0/U_1/part5/\CS_reg[0] /R    1
+clk(R)->clk(R)	7.023    3.974/*         -0.023/*        I0/U_3/U_4/usbDataMinusSync_reg/R    1
+clk(R)->clk(R)	7.012    3.976/*         -0.012/*        I0/U_1/\cur_inst_reg[3] /R    1
+clk(R)->clk(R)	7.022    3.979/*         -0.022/*        I0/U_3/U_0/computerDataMinusSync_reg/R    1
+clk(R)->clk(R)	7.021    3.979/*         -0.021/*        I0/U_3/U_4/\state_reg[3] /R    1
+clk(R)->clk(R)	7.021    3.982/*         -0.021/*        I0/U_3/U_0/computerDataMinusOutput_reg/R    1
+clk(R)->clk(R)	7.021    3.984/*         -0.021/*        I0/U_3/U_0/usbInt2_reg/R    1
+clk(R)->clk(R)	7.020    3.984/*         -0.020/*        I0/U_3/U_4/usbInt2_reg/R    1
+clk(R)->clk(R)	7.020    3.986/*         -0.020/*        I0/U_3/U_4/usbInt1_reg/R    1
+clk(R)->clk(R)	7.017    4.006/*         -0.017/*        I0/U_1/part2/cur_EOP_reg/R    1
+clk(R)->clk(R)	7.016    4.023/*         -0.016/*        I0/U_3/U_0/eopInt2_reg/R    1
+clk(R)->clk(R)	6.824    4.024/*         0.176/*         I0/U_3/U_1/lockc_reg/D    1
+clk(R)->clk(R)	7.016    4.025/*         -0.016/*        I0/U_1/part2/cur_FEGDE_reg/R    1
+clk(R)->clk(R)	6.884    */4.028         */0.116         I0/U_0/\writeCount_reg[1] /D    1
+clk(R)->clk(R)	6.890    */4.095         */0.110         I0/U_0/\usb_reg[3] /D    1
+clk(R)->clk(R)	6.811    4.117/*         0.189/*         I0/U_3/U_1/locku_reg/D    1
+clk(R)->clk(R)	6.809    4.122/*         0.191/*         I0/U_0/\eopCount_reg[1] /D    1
+clk(R)->clk(R)	6.803    4.128/*         0.197/*         I0/U_0/\eopCount_reg[2] /D    1
+clk(R)->clk(R)	6.893    */4.152         */0.107         I0/U_1/\CS_reg[1] /D    1
+clk(R)->clk(R)	6.894    */4.162         */0.106         I0/U_1/\CS_reg[2] /D    1
+clk(R)->clk(R)	6.793    4.181/*         0.207/*         I0/U_1/part3/data_out_reg/D    1
+clk(R)->clk(R)	6.826    4.300/*         0.174/*         I0/U_0/\usb_reg[0] /D    1
+clk(R)->clk(R)	6.000    */4.380         */1.000         scl    1
+clk(R)->clk(R)	6.797    4.419/*         0.203/*         I0/U_0/\writeCount_reg[0] /D    1
+clk(R)->clk(R)	6.875    */4.462         */0.125         I0/U_1/\CS_reg[3] /D    1
+clk(R)->clk(R)	6.808    4.495/*         0.192/*         I0/U_0/\usb_reg[2] /D    1
+clk(R)->clk(R)	6.885    */4.509         */0.115         I0/U_0/\eopCount_reg[0] /D    1
+clk(R)->clk(R)	6.000    */4.520         */1.000         dataOut    1
+clk(R)->clk(R)	6.876    */4.540         */0.124         I0/U_0/\usb_reg[1] /D    1
+clk(R)->clk(R)	6.814    4.625/*         0.186/*         I0/U_1/part4/\cnt_reg[2] /D    1
+clk(R)->clk(R)	6.872    */4.655         */0.128         I0/U_1/\cur_inst_reg[1] /D    1
+clk(R)->clk(R)	6.877    */4.658         */0.123         I0/U_1/\cur_inst_reg[3] /D    1
+clk(R)->clk(R)	6.878    */4.663         */0.122         I0/U_1/\cur_inst_reg[0] /D    1
+clk(R)->clk(R)	7.165    4.692/*         -0.165/*        I0/U_1/part3/data0_buf0_reg/R    1
+clk(R)->clk(R)	6.826    4.707/*         0.174/*         I0/U_3/U_0/computerDataPlusOutput_reg/D    1
+clk(R)->clk(R)	6.884    */4.752         */0.116         I0/U_3/U_1/\state_reg[1] /D    1
+clk(R)->clk(R)	6.812    4.763/*         0.188/*         I0/U_1/part5/\CS_reg[0] /D    1
+clk(R)->clk(R)	6.866    */4.769         */0.134         I0/U_3/U_1/\state_reg[0] /D    1
+clk(R)->clk(R)	6.811    4.788/*         0.189/*         I0/U_3/U_0/computerDataMinusOutput_reg/D    1
+clk(R)->clk(R)	6.821    4.798/*         0.179/*         I0/U_3/U_4/usbDataMinusSync2_reg/D    1
+clk(R)->clk(R)	6.823    4.801/*         0.177/*         I0/U_3/U_4/usbDataPlusSync2_reg/D    1
+clk(R)->clk(R)	6.823    4.803/*         0.177/*         I0/U_3/U_4/usbDataMinusSync_reg/D    1
+clk(R)->clk(R)	6.791    4.825/*         0.209/*         I0/U_1/part2/d1_reg/D    1
+clk(R)->clk(R)	6.872    */4.857         */0.128         I0/U_1/part5/\CS_reg[2] /D    1
+clk(R)->clk(R)	6.645    */4.868         */0.355         I0/U_0/eopf_reg/D    1
+clk(R)->clk(R)	6.895    */4.870         */0.105         I0/U_1/part5/cur_shift_en_reg/D    1
+clk(R)->clk(R)	6.878    */4.873         */0.122         I0/U_1/part5/\CS_reg[3] /D    1
+clk(R)->clk(R)	6.808    4.891/*         0.192/*         I0/U_3/U_4/usbDataPlusSync_reg/D    1
+clk(R)->clk(R)	6.816    4.905/*         0.184/*         I0/U_2/U_1/\count_reg[1] /D    1
+clk(R)->clk(R)	6.885    */4.915         */0.115         I0/U_1/\cur_inst_reg[2] /D    1
+clk(R)->clk(R)	6.819    4.926/*         0.181/*         I0/U_1/part4/\cnt_reg[1] /D    1
+clk(R)->clk(R)	7.111    4.958/*         -0.111/*        I0/U_0/\writeCount_reg[1] /R    1
+clk(R)->clk(R)	7.111    4.958/*         -0.111/*        I0/U_1/\cur_inst_reg[0] /R    1
+clk(R)->clk(R)	7.111    4.958/*         -0.111/*        I0/U_1/\cur_inst_reg[2] /R    1
+clk(R)->clk(R)	7.111    4.959/*         -0.111/*        I0/U_3/U_1/\state_reg[2] /R    1
+clk(R)->clk(R)	7.111    4.959/*         -0.111/*        I0/U_0/\writeCount_reg[2] /R    1
+clk(R)->clk(R)	7.111    4.960/*         -0.111/*        I0/U_0/\usb_reg[3] /R    1
+clk(R)->clk(R)	7.111    4.960/*         -0.111/*        I0/U_0/\writeCount_reg[0] /R    1
+clk(R)->clk(R)	7.111    4.963/*         -0.111/*        I0/U_3/U_1/eopIn1_reg/R    1
+clk(R)->clk(R)	7.111    4.964/*         -0.111/*        I0/U_0/eop1_reg/R    1
+clk(R)->clk(R)	7.111    4.965/*         -0.111/*        I0/U_0/eop2_reg/R    1
+clk(R)->clk(R)	6.822    4.996/*         0.178/*         I0/U_2/U_0/fifoFullReg_reg/D    1
+clk(R)->clk(R)	6.885    */5.016         */0.115         I0/U_1/part4/cur_data_ready_reg/D    1
+clk(R)->clk(R)	6.795    5.045/*         0.205/*         I0/U_3/U_1/\state_reg[2] /D    1
+clk(R)->clk(R)	6.814    5.061/*         0.186/*         I0/U_2/U_0/fifoEmptyReg_reg/D    1
+clk(R)->clk(R)	6.812    5.114/*         0.188/*         I0/U_1/part5/\CS_reg[1] /D    1
+clk(R)->clk(R)	6.820    5.130/*         0.180/*         I0/U_1/part4/\pre_val_reg[3] /D    1
+clk(R)->clk(R)	6.819    5.135/*         0.181/*         I0/U_1/part4/\pre_val_reg[1] /D    1
+clk(R)->clk(R)	6.819    5.142/*         0.181/*         I0/U_1/part4/\pre_val_reg[4] /D    1
+clk(R)->clk(R)	6.821    5.143/*         0.179/*         I0/U_1/part4/\pre_val_reg[2] /D    1
+clk(R)->clk(R)	6.820    5.145/*         0.180/*         I0/U_1/part4/\pre_val_reg[0] /D    1
+clk(R)->clk(R)	6.821    5.148/*         0.179/*         I0/U_1/part4/\pre_val_reg[7] /D    1
+clk(R)->clk(R)	6.820    5.148/*         0.180/*         I0/U_1/part4/\pre_val_reg[5] /D    1
+clk(R)->clk(R)	6.822    5.149/*         0.178/*         I0/U_3/U_0/computerDataPlusSync_reg/D    1
+clk(R)->clk(R)	6.821    5.164/*         0.179/*         I0/U_1/part4/\pre_val_reg[6] /D    1
+clk(R)->clk(R)	6.821    5.225/*         0.179/*         I0/U_3/U_0/computerDataMinusSync_reg/D    1
+clk(R)->clk(R)	6.817    5.250/*         0.183/*         I0/U_2/U_1/\count_reg[0] /D    1
+clk(R)->clk(R)	6.808    5.281/*         0.192/*         I0/U_1/part5/dclk_cur_reg/D    1
+clk(R)->clk(R)	6.818    5.302/*         0.182/*         I0/U_1/part3/data0_buf0_reg/D    1
+clk(R)->clk(R)	6.859    */5.315         */0.141         I0/U_1/\cur_data_reg[1] /D    1
+clk(R)->clk(R)	6.817    5.378/*         0.183/*         I0/U_1/part4/\cnt_reg[0] /D    1
+clk(R)->clk(R)	6.885    */5.499         */0.115         I0/U_1/\cur_data_reg[0] /D    1
+clk(R)->clk(R)	7.151    5.592/*         -0.151/*        I0/U_5/\count_reg[8] /R    1
+clk(R)->clk(R)	7.151    5.592/*         -0.151/*        I0/U_5/\count_reg[7] /R    1
+clk(R)->clk(R)	7.151    5.593/*         -0.151/*        I0/U_5/\count_reg[6] /R    1
+clk(R)->clk(R)	7.151    5.595/*         -0.151/*        I0/U_5/\count_reg[5] /R    1
+clk(R)->clk(R)	7.151    5.596/*         -0.151/*        I0/U_5/\count_reg[4] /R    1
+clk(R)->clk(R)	7.151    5.599/*         -0.151/*        I0/U_5/\count_reg[3] /R    1
+clk(R)->clk(R)	7.151    5.600/*         -0.151/*        I0/U_2/U_0/\gregData_reg[0][1] /R    1
+clk(R)->clk(R)	7.152    5.605/*         -0.152/*        I0/U_5/\count_reg[2] /R    1
+clk(R)->clk(R)	7.152    5.607/*         -0.152/*        I0/U_5/sclReg_reg/R    1
+clk(R)->clk(R)	7.152    5.607/*         -0.152/*        I0/U_5/\count_reg[1] /R    1
+clk(R)->clk(R)	7.152    5.607/*         -0.152/*        I0/U_2/U_0/\gregData_reg[2][2] /R    1
+clk(R)->clk(R)	7.152    5.608/*         -0.152/*        I0/U_5/\count_reg[0] /R    1
+clk(R)->clk(R)	7.152    5.609/*         -0.152/*        I0/U_2/U_0/\gregData_reg[2][1] /R    1
+clk(R)->clk(R)	7.152    5.610/*         -0.152/*        I0/U_2/U_0/\gregData_reg[3][1] /R    1
+clk(R)->clk(R)	7.152    5.610/*         -0.152/*        I0/U_2/U_0/\gregData_reg[2][4] /R    1
+clk(R)->clk(R)	7.152    5.611/*         -0.152/*        I0/U_2/U_0/\gregData_reg[2][3] /R    1
+clk(R)->clk(R)	7.152    5.612/*         -0.152/*        I0/U_2/U_0/\gregData_reg[1][2] /R    1
+clk(R)->clk(R)	7.152    5.613/*         -0.152/*        I0/U_2/U_0/\gregData_reg[3][3] /R    1
+clk(R)->clk(R)	6.773    */5.619         */0.227         I0/U_0/eop1_reg/D    1
+clk(R)->clk(R)	6.773    */5.619         */0.227         I0/U_3/U_1/eopIn1_reg/D    1
+clk(R)->clk(R)	7.153    5.620/*         -0.153/*        I0/U_2/U_0/\gregData_reg[2][0] /R    1
+clk(R)->clk(R)	7.154    5.628/*         -0.154/*        I0/U_2/U_0/\gregData_reg[1][3] /R    1
+clk(R)->clk(R)	6.773    */5.629         */0.227         I0/U_3/U_0/eopInt1_reg/D    1
+clk(R)->clk(R)	7.155    5.631/*         -0.155/*        I0/U_1/part4/\cnt_reg[2] /R    1
+clk(R)->clk(R)	7.155    5.632/*         -0.155/*        I0/U_2/U_0/\gregData_reg[0][3] /R    1
+clk(R)->clk(R)	7.156    5.638/*         -0.156/*        I0/U_2/U_0/\gregData_reg[1][1] /R    1
+clk(R)->clk(R)	7.156    5.641/*         -0.156/*        I0/U_2/U_0/\gregData_reg[0][0] /R    1
+clk(R)->clk(R)	7.158    5.653/*         -0.158/*        I0/U_2/U_0/\gregData_reg[1][0] /R    1
+clk(R)->clk(R)	7.158    5.659/*         -0.158/*        I0/U_1/part4/\pre_val_reg[0] /R    1
+clk(R)->clk(R)	7.158    5.659/*         -0.158/*        I0/U_2/U_0/\gregData_reg[3][0] /R    1
+clk(R)->clk(R)	7.158    5.659/*         -0.158/*        I0/U_1/part4/\pre_val_reg[1] /R    1
+clk(R)->clk(R)	7.158    5.660/*         -0.158/*        I0/U_1/part4/\pre_val_reg[3] /R    1
+clk(R)->clk(R)	7.158    5.667/*         -0.158/*        I0/U_1/\CS_reg[1] /R    1
+clk(R)->clk(R)	7.158    5.671/*         -0.158/*        I0/U_1/part4/\cnt_reg[0] /R    1
+clk(R)->clk(R)	7.158    5.676/*         -0.158/*        I0/U_1/data_ready_1_reg/R    1
+clk(R)->clk(R)	7.159    5.686/*         -0.159/*        I0/U_1/\cur_inst_reg[1] /R    1
+clk(R)->clk(R)	7.159    5.687/*         -0.159/*        I0/U_1/\CS_reg[2] /R    1
+clk(R)->clk(R)	7.158    5.687/*         -0.158/*        I0/U_1/part4/\cnt_reg[1] /R    1
+clk(R)->clk(R)	7.158    5.687/*         -0.158/*        I0/U_1/part4/cur_data_ready_reg/R    1
+clk(R)->clk(R)	7.159    5.688/*         -0.159/*        I0/U_1/\cur_data_reg[1] /R    1
+clk(R)->clk(R)	7.158    5.688/*         -0.158/*        I0/U_1/data_ready_0_reg/R    1
+clk(R)->clk(R)	7.159    5.689/*         -0.159/*        I0/U_1/\cur_data_reg[0] /R    1
+clk(R)->clk(R)	7.159    5.690/*         -0.159/*        I0/U_0/\eopCount_reg[2] /R    1
+clk(R)->clk(R)	7.159    5.691/*         -0.159/*        I0/U_1/\CS_reg[3] /R    1
+clk(R)->clk(R)	7.158    5.691/*         -0.158/*        I0/U_1/\CS_reg[0] /R    1
+clk(R)->clk(R)	7.159    5.692/*         -0.159/*        I0/U_0/\usb_reg[1] /R    1
+clk(R)->clk(R)	7.159    5.692/*         -0.159/*        I0/U_0/\eopCount_reg[1] /R    1
+clk(R)->clk(R)	7.159    5.693/*         -0.159/*        I0/U_0/\eopCount_reg[0] /R    1
+clk(R)->clk(R)	7.159    5.693/*         -0.159/*        I0/U_0/\usb_reg[2] /R    1
+clk(R)->clk(R)	7.159    5.693/*         -0.159/*        I0/U_0/\usb_reg[0] /R    1
+clk(R)->clk(R)	6.766    */5.729         */0.234         I0/U_6/sd_clock1_reg/D    1
+clk(R)->clk(R)	6.884    */6.060         */0.116         I0/U_0/dr_reg/D    1
+clk(R)->clk(R)	6.884    */6.085         */0.116         I0/U_6/sdc_reg/D    1
+clk(R)->clk(R)	6.887    */6.102         */0.113         I0/U_4/load_reg/D    1
+clk(R)->clk(R)	6.822    6.150/*         0.178/*         I0/U_0/sd_reg/D    1
+clk(R)->clk(R)	6.840    */6.166         */0.160         I0/U_1/data_ready_1_reg/D    1
+clk(R)->clk(R)	6.856    */6.219         */0.144         I0/U_3/U_1/computerLock_reg/D    1
+clk(R)->clk(R)	6.800    6.264/*         0.200/*         I0/U_3/U_1/usbLock_reg/D    1
+clk(R)->clk(R)	6.807    6.293/*         0.193/*         I0/U_3/U_0/eopInt2_reg/D    1
+clk(R)->clk(R)	6.808    6.295/*         0.192/*         I0/U_3/U_4/usbInt1_reg/D    1
+clk(R)->clk(R)	6.808    6.295/*         0.192/*         I0/U_3/U_0/usbInt1_reg/D    1
+clk(R)->clk(R)	6.811    6.308/*         0.189/*         I0/U_3/U_4/usbInt2_reg/D    1
+clk(R)->clk(R)	6.811    6.308/*         0.189/*         I0/U_0/eop2_reg/D    1
+clk(R)->clk(R)	6.813    6.316/*         0.187/*         I0/U_0/dr2_reg/D    1
+clk(R)->clk(R)	6.813    6.317/*         0.187/*         I0/U_3/U_1/eopIn2_reg/D    1
+clk(R)->clk(R)	6.813    6.318/*         0.187/*         I0/U_1/part2/d2_reg/D    1
+clk(R)->clk(R)	6.814    6.320/*         0.186/*         I0/U_6/sd_clock2_reg/D    1
+clk(R)->clk(R)	6.814    6.321/*         0.186/*         I0/U_4/load2_reg/D    1
+clk(R)->clk(R)	6.814    6.324/*         0.186/*         I0/U_3/U_0/usbInt2_reg/D    1
+clk(R)->clk(R)	6.826    6.373/*         0.174/*         I0/U_1/data_ready_0_reg/D    1

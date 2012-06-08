@@ -1,0 +1,168 @@
+
+********************************************************************************
+Product   : Virtuoso(R) STREAM In
+Program   : @(#)$CDS: pipo.exe_64 version 5.1.0-64b 06/29/2009 07:11 (cicamd10) $
+SubVersion: sub-version 5.10.41-64b.500.6.136
+Started at: 25-Apr-2012  22:34:52
+User Name : mg56
+Host Name : srge02.ecn.purdue.edu
+Directory : /home/ecegrid/a/mg56/ece337/project_new
+CADENCE Design Systems, Inc.
+********************************************************************************
+
+Stream file   : /home/ecegrid/a/mg56/ece337/project_new/sniffer_top.gds2
+
+Reading Stream File ...
+VERSION      : 3
+MODIFICATION : Wed Apr 25 22:34:40 2012
+ACCESS       : Wed Apr 25 22:34:40 2012
+WARNING (158): Years in non-standard four-digit format encountered in the Stream file.
+GDS LIBRARY  : DesignLib
+U-UNIT/DBU   : 0.001000000000
+METRIC/DBU   : 0.000000001000
+
+TARGET LIBRARY PATH: /home/ecegrid/a/mg56/ece337/project_new/My_Layout2
+
+     1. scanning cellview (sniffer_top layout)
+     2. scanning cellview (M3_M2 layout)
+     3. scanning cellview (M2_M1 layout)
+     4. scanning cellview (sniffer_top_VIA0 layout)
+     5. scanning cellview (sniffer_top_VIA1 layout)
+     6. scanning cellview (sniffer_top_VIA2 layout)
+     7. scanning cellview (sniffer_top_VIA3 layout)
+
+PASS 2...
+WARNING (468): Existing cells in the target library might be overwritten if the Stream file contains a cell with the same name as a cell in the target library. You can use the Do Not Overwrite Existing Cells option to avoid this problem.
+     1. translating cellview (sniffer_top_VIA3 layout)
+     2. translating cellview (sniffer_top_VIA2 layout)
+     3. translating cellview (sniffer_top_VIA1 layout)
+     4. translating cellview (sniffer_top_VIA0 layout)
+     5. translating cellview (M2_M1 layout)
+     6. translating cellview (M3_M2 layout)
+     7. translating cellview (sniffer_top layout)
+
+			Individual Cell Statistics
+
+CellView          Rectangles Polygons   Paths Ellipses Labels Instances Arrays  Dots
+************************************************************************************
+sniffer_top/layout        96        0    7712       0      11   10421       0      0
+(BUFX2/layout) -- (referenced, but not defined, no data created).
+(INVX8/layout) -- (referenced, but not defined, no data created).
+(INVX1/layout) -- (referenced, but not defined, no data created).
+(DFFSR/layout) -- (referenced, but not defined, no data created).
+(NAND2X1/layout) -- (referenced, but not defined, no data created).
+(AOI22X1/layout) -- (referenced, but not defined, no data created).
+(NOR2X1/layout) -- (referenced, but not defined, no data created).
+(MUX2X1/layout) -- (referenced, but not defined, no data created).
+(NAND3X1/layout) -- (referenced, but not defined, no data created).
+(XNOR2X1/layout) -- (referenced, but not defined, no data created).
+(XOR2X1/layout) -- (referenced, but not defined, no data created).
+(HAX1/layout) -- (referenced, but not defined, no data created).
+(INVX2/layout) -- (referenced, but not defined, no data created).
+(OR2X1/layout) -- (referenced, but not defined, no data created).
+(AND2X1/layout) -- (referenced, but not defined, no data created).
+(OAI21X1/layout) -- (referenced, but not defined, no data created).
+(AOI21X1/layout) -- (referenced, but not defined, no data created).
+(DFFPOSX1/layout) -- (referenced, but not defined, no data created).
+(OAI22X1/layout) -- (referenced, but not defined, no data created).
+(TBUFX1/layout) -- (referenced, but not defined, no data created).
+(AND2X2/layout) -- (referenced, but not defined, no data created).
+(NOR3X1/layout) -- (referenced, but not defined, no data created).
+(OR2X2/layout) -- (referenced, but not defined, no data created).
+(PADVDD/layout) -- (referenced, but not defined, no data created).
+(PADGND/layout) -- (referenced, but not defined, no data created).
+(PADOUT/layout) -- (referenced, but not defined, no data created).
+(PADINC/layout) -- (referenced, but not defined, no data created).
+(PADNC/layout) -- (referenced, but not defined, no data created).
+(PADFC/layout) -- (referenced, but not defined, no data created).
+(FILL/layout) -- (referenced, but not defined, no data created).
+M3_M2/layout               3        0       0       0       0       0       0      0
+M2_M1/layout               3        0       0       0       0       0       0      0
+sniffer_top_VIA0/lay      38        0       0       0       0       0       0      0
+sniffer_top_VIA1/lay       8        0       0       0       0       0       0      0
+sniffer_top_VIA2/lay     116        0       0       0       0       0       0      0
+sniffer_top_VIA3/lay      78        0       0       0       0       0       0      0
+
+
+                    Statistics Of Layers
+
+
+Cadence    Cadence    Stream   Stream
+ Layer     Purpose    Layer   Datatype Rectangles Polygons Paths   Ellipses   Labels   Dots
+--------------------------------------------------------------------------------------------
+via2       drawing    61        0         1        0        0        0        0        0       
+metal1     drawing    49        0         96       0        1353     0        2        0       
+metal2     drawing    51        0         11       0        4442     0        0        0       
+metal3     drawing    62        0         1        0        1917     0        9        0       
+via        drawing    50        0         233      0        0        0        0        0       
+
+
+   Summary Of Objects
+
+------------------------
+     342 Rectangles
+       0 Polygons
+    7712 Paths
+       0 Ellipses
+      11 Labels
+   10421 Instances
+       0 Arrays
+       7 Cells
+       0 Dots
+
+
+00:00:00 Elapsed time
+00:00:00 CPU time
+
+    6149 Kbytes of memory
+
+*** There were 0 error and 2 warning messages ***
+
+The setup file's contents :
+
+streamInKeys = list(nil
+	'runDir			"."
+	'inFile			"sniffer_top.gds2"
+	'primaryCell		"sniffer_top"
+	'libName		"My_Layout2"
+	'techfileName		""
+	'scale			0.001000
+	'units			"micron"
+	'errFile		"PIPO.LOG"
+	'refLib			nil
+	'hierDepth		32
+	'maxVertices		1024
+	'checkPolygon		nil
+	'snapToGrid		nil
+	'arrayToSimMosaic	t
+	'caseSensitivity	"preserve"
+	'textCaseSensitivity	"preserve"
+	'zeroPathToLine		"lines"
+	'convertNode		"ignore"
+	'keepPcell	nil
+	'replaceBusBitChar	nil
+	'skipUndefinedLPP	nil
+	'ignoreBox		nil
+	'mergeUndefPurposToDrawing		nil
+	'reportPrecision	nil
+	'keepStreamCells		nil
+	'attachTechfileOfLib		""
+	'runQuiet		nil
+	'noWriteExistCell		nil
+	'NOUnmappingLayerWarning		nil
+	'comprehensiveLog		nil
+	'ignorePcellEvalFail		nil
+	'appendDB		nil
+	'genListHier		nil
+	'skipDbLocking		nil
+	'skipPcDbGen		nil
+	'cellMapTable		""
+	'layerTable		"gds2_icfb.map"
+	'textFontTable		""
+	'restorePin		0
+	'propMapTable		""
+	'propSeparator		","
+	'userSkillFile		""
+	'rodDir			""
+	'refLibOrder			""
+)

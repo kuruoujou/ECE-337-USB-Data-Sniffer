@@ -1,0 +1,237 @@
+
+
+
+
+
+
+
+
+
+    59:             if (eop2 = '0' and eop1 = '1') then
+                                   ^
+/home/ecegrid/a/mg56/ece337/project_new/source/controller.vhd:59: RMM_RTL_CODING_GUIDELINES: CLOCKS> [WARNING] G_546_1: Avoid internally generated reset/set/load  
+#UNIT: VHDL LEDA_WORK CONTROLLER_ARCH/CONTROLLER /home/ecegrid/a/mg56/ece337/project_new/source/controller.vhd
+#RULE: RMM_RTL_CODING_GUIDELINES CLOCKS_AND_RESETS $LEDA_PATH/rules/rmm/./RMM.sl 1157 M_0296
+#HTM1: "pol_rmm.html#G_546_1"
+#HTM2: 
+#TRAK: $0®59®IN   0®OUT SNIFFER_TOP°U_0°GREGI°~iw1 1®OBJ SNIFFER_TOP°U_0°GREGI°~band2 15¦ $0®62®IN SNIFFER_TOP°U_0°GREGI°~iw1 3®OUT SNIFFER_TOP°U_0°EOPF 1®OBJ SNIFFER_TOP°U_0°GREGI°~ff0 34 (1)
+    39:   signal eop1, eop2, eopf: std_logic;
+                       ^
+/home/ecegrid/a/mg56/ece337/project_new/source/controller.vhd:39: RMM_RTL_CODING_GUIDELINES: CLOCKS> [WARNING] G_546_1: Avoid internally generated reset/set/load SNIFFER_TOP.U_0.EOP2
+/home/ecegrid/a/mg56/ece337/project_new/source/controller.vhd:59:28:CONTROLLER_ARCH/CONTROLLER:	--- Used as set/reset/load signal: 	SNIFFER_TOP.U_0.GREGI.~iw1
+#UNIT: VHDL LEDA_WORK CONTROLLER_ARCH/CONTROLLER /home/ecegrid/a/mg56/ece337/project_new/source/controller.vhd
+#RULE: RMM_RTL_CODING_GUIDELINES CLOCKS_AND_RESETS $LEDA_PATH/rules/rmm/./RMM.sl 1149 M_0296
+#HTM1: "pol_rmm.html#G_546_1"
+#HTM2: 
+#TRAK: $0®71®IN   0®OUT SNIFFER_TOP°U_0°EOP2 1®OBJ SNIFFER_TOP°U_0°GREGI°~ff4 34 (1)¦ $0®59®IN SNIFFER_TOP°U_0°EOP2 0®OUT SNIFFER_TOP°U_0°GREGI°~iw2 1®OBJ SNIFFER_TOP°U_0°GREGI°~not3 66¦ $0®59®IN SNIFFER_TOP°U_0°GREGI°~iw2 0®OUT SNIFFER_TOP°U_0°GREGI°~iw1 1®OBJ SNIFFER_TOP°U_0°GREGI°~band2 15¦ $0®62®IN SNIFFER_TOP°U_0°GREGI°~iw1 3®OUT SNIFFER_TOP°U_0°EOPF 1®OBJ SNIFFER_TOP°U_0°GREGI°~ff0 34 (1)
+    39:   signal eop1, eop2, eopf: std_logic;
+                 ^
+/home/ecegrid/a/mg56/ece337/project_new/source/controller.vhd:39: RMM_RTL_CODING_GUIDELINES: CLOCKS> [WARNING] G_546_1: Avoid internally generated reset/set/load SNIFFER_TOP.U_0.EOP1
+/home/ecegrid/a/mg56/ece337/project_new/source/controller.vhd:59:28:CONTROLLER_ARCH/CONTROLLER:	--- Used as set/reset/load signal: 	SNIFFER_TOP.U_0.GREGI.~iw1
+#UNIT: VHDL LEDA_WORK CONTROLLER_ARCH/CONTROLLER /home/ecegrid/a/mg56/ece337/project_new/source/controller.vhd
+#RULE: RMM_RTL_CODING_GUIDELINES CLOCKS_AND_RESETS $LEDA_PATH/rules/rmm/./RMM.sl 1149 M_0296
+#HTM1: "pol_rmm.html#G_546_1"
+#HTM2: 
+#TRAK: $0®72®IN   0®OUT SNIFFER_TOP°U_0°EOP1 1®OBJ SNIFFER_TOP°U_0°GREGI°~ff5 34 (1)¦ $0®59®IN SNIFFER_TOP°U_0°EOP1 0®OUT SNIFFER_TOP°U_0°GREGI°~iw1 1®OBJ SNIFFER_TOP°U_0°GREGI°~band2 15¦ $0®62®IN SNIFFER_TOP°U_0°GREGI°~iw1 3®OUT SNIFFER_TOP°U_0°EOPF 1®OBJ SNIFFER_TOP°U_0°GREGI°~ff0 34 (1)
+    17:   signal cur_shift_en, nxt_shift_en: STD_LOGIC;
+                 ^
+/home/ecegrid/a/mg56/ece337/project_new/source/timer.vhd:17: RMM_RTL_CODING_GUIDELINES: CLOCKS> [WARNING] G_546_1: Avoid internally generated reset/set/load SNIFFER_TOP.U_1.PART3.ENABLE
+/home/ecegrid/a/mg56/ece337/project_new/source/NRZIdecode.vhd:35:17:NRZI/NRZIDECODE:	--- Used as set/reset/load signal: 	SNIFFER_TOP.U_1.PART3.ENABLE
+#UNIT: VHDL LEDA_WORK FSM/TIMER /home/ecegrid/a/mg56/ece337/project_new/source/timer.vhd
+#RULE: RMM_RTL_CODING_GUIDELINES CLOCKS_AND_RESETS $LEDA_PATH/rules/rmm/./RMM.sl 1149 M_0296
+#HTM1: "pol_rmm.html#G_546_1"
+#HTM2: 
+#TRAK: $1®35®IN   0®OUT SNIFFER_TOP°U_1°PART5°CUR_SHIFT_EN 1®OBJ SNIFFER_TOP°U_1°PART5°SEQ1°~ff1 34 (1)¦ $1®21®IN SNIFFER_TOP°U_1°PART5°CUR_SHIFT_EN 0®OUT SNIFFER_TOP°U_1°PART5°SHIFT_EN 1®OBJ SNIFFER_TOP°U_1°PART5°_SAS1°~tie0 89¦ $2®250®IN SNIFFER_TOP°U_1°PART5°SHIFT_EN 0®OUT SNIFFER_TOP°U_1°SHIFT_ENABLE 1®OBJ SNIFFER_TOP°U_1°PART5 53¦ $2®230®IN SNIFFER_TOP°U_1°SHIFT_ENABLE 0®OUT SNIFFER_TOP°U_1°PART3°ENABLE 1®OBJ SNIFFER_TOP°U_1°PART3 53¦ $3®36®IN SNIFFER_TOP°U_1°PART3°ENABLE 3®OUT SNIFFER_TOP°U_1°PART3°DATA0_BUF0 1®OBJ SNIFFER_TOP°U_1°PART3°SEQ1°~ff6 34 (1)
+    41:         if eopIn1 = '0' and eopIn2 = '1' then
+                                ^
+/home/ecegrid/a/mg56/ece337/project_new/source/lockingDetector.vhd:41: RMM_RTL_CODING_GUIDELINES: CLOCKS> [WARNING] G_546_1: Avoid internally generated reset/set/load  
+#UNIT: VHDL LEDA_WORK BEHAVIORAL/LOCKINGDETECTOR /home/ecegrid/a/mg56/ece337/project_new/source/lockingDetector.vhd
+#RULE: RMM_RTL_CODING_GUIDELINES CLOCKS_AND_RESETS $LEDA_PATH/rules/rmm/./RMM.sl 1157 M_0296
+#HTM1: "pol_rmm.html#G_546_1"
+#HTM2: 
+#TRAK: $4®41®IN   0®OUT SNIFFER_TOP°U_3°U_1°GREG°~iw1 1®OBJ SNIFFER_TOP°U_3°U_1°GREG°~band4 15¦ $4®44®IN SNIFFER_TOP°U_3°U_1°GREG°~iw1 3®OUT SNIFFER_TOP°U_3°U_1°EOPFOUND 1®OBJ SNIFFER_TOP°U_3°U_1°GREG°~ff2 34 (1)
+    27:   signal eopIn1, eopIn2, eopFound : std_logic;
+                 ^
+/home/ecegrid/a/mg56/ece337/project_new/source/lockingDetector.vhd:27: RMM_RTL_CODING_GUIDELINES: CLOCKS> [WARNING] G_546_1: Avoid internally generated reset/set/load SNIFFER_TOP.U_3.U_1.EOPIN1
+/home/ecegrid/a/mg56/ece337/project_new/source/lockingDetector.vhd:41:25:BEHAVIORAL/LOCKINGDETECTOR:	--- Used as set/reset/load signal: 	SNIFFER_TOP.U_3.U_1.GREG.~iw1
+#UNIT: VHDL LEDA_WORK BEHAVIORAL/LOCKINGDETECTOR /home/ecegrid/a/mg56/ece337/project_new/source/lockingDetector.vhd
+#RULE: RMM_RTL_CODING_GUIDELINES CLOCKS_AND_RESETS $LEDA_PATH/rules/rmm/./RMM.sl 1149 M_0296
+#HTM1: "pol_rmm.html#G_546_1"
+#HTM2: 
+#TRAK: $4®46®IN   0®OUT SNIFFER_TOP°U_3°U_1°EOPIN1 1®OBJ SNIFFER_TOP°U_3°U_1°GREG°~ff7 34 (1)¦ $4®41®IN SNIFFER_TOP°U_3°U_1°EOPIN1 0®OUT SNIFFER_TOP°U_3°U_1°GREG°~iw2 1®OBJ SNIFFER_TOP°U_3°U_1°GREG°~not5 66¦ $4®41®IN SNIFFER_TOP°U_3°U_1°GREG°~iw2 0®OUT SNIFFER_TOP°U_3°U_1°GREG°~iw1 1®OBJ SNIFFER_TOP°U_3°U_1°GREG°~band4 15¦ $4®44®IN SNIFFER_TOP°U_3°U_1°GREG°~iw1 3®OUT SNIFFER_TOP°U_3°U_1°EOPFOUND 1®OBJ SNIFFER_TOP°U_3°U_1°GREG°~ff2 34 (1)
+    27:   signal eopIn1, eopIn2, eopFound : std_logic;
+                         ^
+/home/ecegrid/a/mg56/ece337/project_new/source/lockingDetector.vhd:27: RMM_RTL_CODING_GUIDELINES: CLOCKS> [WARNING] G_546_1: Avoid internally generated reset/set/load SNIFFER_TOP.U_3.U_1.EOPIN2
+/home/ecegrid/a/mg56/ece337/project_new/source/lockingDetector.vhd:41:25:BEHAVIORAL/LOCKINGDETECTOR:	--- Used as set/reset/load signal: 	SNIFFER_TOP.U_3.U_1.GREG.~iw1
+#UNIT: VHDL LEDA_WORK BEHAVIORAL/LOCKINGDETECTOR /home/ecegrid/a/mg56/ece337/project_new/source/lockingDetector.vhd
+#RULE: RMM_RTL_CODING_GUIDELINES CLOCKS_AND_RESETS $LEDA_PATH/rules/rmm/./RMM.sl 1149 M_0296
+#HTM1: "pol_rmm.html#G_546_1"
+#HTM2: 
+#TRAK: $4®47®IN   0®OUT SNIFFER_TOP°U_3°U_1°EOPIN2 1®OBJ SNIFFER_TOP°U_3°U_1°GREG°~ff6 34 (1)¦ $4®41®IN SNIFFER_TOP°U_3°U_1°EOPIN2 0®OUT SNIFFER_TOP°U_3°U_1°GREG°~iw1 1®OBJ SNIFFER_TOP°U_3°U_1°GREG°~band4 15¦ $4®44®IN SNIFFER_TOP°U_3°U_1°GREG°~iw1 3®OUT SNIFFER_TOP°U_3°U_1°EOPFOUND 1®OBJ SNIFFER_TOP°U_3°U_1°GREG°~ff2 34 (1)
+
+--- Executing block-level checks on library LEDA_WORK ... ---
+
+
+--- Block-level checks on library LEDA_WORK completed ---
+
+--- Executing block-level checks on unit LEDA_WORK.SNIFFER_TOP ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.USBINTERCEPTOR ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.COMPUTERINTERCEPTOR ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.SPIXMITSR ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.FIFORAM ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.FIFOTOP ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.SD_CONTROL ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.SPICLKDIVIDE ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.SHIFT_GREG ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.FIFOREAD ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.DECODER ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.CONTROLLER ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.SEE_DET ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.LOCKINGDETECTOR ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.TRISTATE ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.INTERCEPTOR ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.TIMER ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.NRZIDECODE ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.FIFOWRITE ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.CONTROLLER_ARCH/CONTROLLER ... ---
+
+
+    76:     NXT: process(fifo_full,decoder_instruction,data_ready,eopf,writeCount,nextWriteCount,eopCount,nexteopCount,eop_found,dr,beginSd,nextUsb,nextSd,usb,sd)
+            ^^^
+/home/ecegrid/a/mg56/ece337/project_new/source/controller.vhd:76: LEDA: STATE_> [WARNING] B_3607: The number of states in a state machine should be a power of 2
+#UNIT: VHDL LEDA_WORK CONTROLLER_ARCH/CONTROLLER /home/ecegrid/a/mg56/ece337/project_new/source/controller.vhd
+#RULE: LEDA STATE_MACHINES $LEDA_PATH/rules/leda/LEDA.rl 1780 M_0800
+#HTM1: "pol_leda.html#B_3607"
+
+--- Executing block-level checks on unit LEDA_WORK.NRZI/NRZIDECODE ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.BLK/DECODER ... ---
+
+
+    97:     seq2:process(CS, data_ready_0, data_ready_1, halt, data_buf, EOP)
+            ^^^^
+/home/ecegrid/a/mg56/ece337/project_new/source/decoder.vhd:97: LEDA: STATE_> [WARNING] B_3607: The number of states in a state machine should be a power of 2
+#UNIT: VHDL LEDA_WORK BLK/DECODER /home/ecegrid/a/mg56/ece337/project_new/source/decoder.vhd
+#RULE: LEDA STATE_MACHINES $LEDA_PATH/rules/leda/LEDA.rl 1780 M_0800
+#HTM1: "pol_leda.html#B_3607"
+
+--- Executing block-level checks on unit LEDA_WORK.STRUCT/INTERCEPTOR ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.FIFOWRITE_ARCH/FIFOWRITE ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.SD_ARCH/SD_CONTROL ... ---
+
+
+    65:     NXT: process(sd,nextSd,sdc,data_in,fifo_empty,count1,count2,count3)
+            ^^^
+/home/ecegrid/a/mg56/ece337/project_new/source/sd_control.vhd:65: LEDA: STATE_> [WARNING] B_3602: Moore style description of state machines is recommended
+#UNIT: VHDL LEDA_WORK SD_ARCH/SD_CONTROL /home/ecegrid/a/mg56/ece337/project_new/source/sd_control.vhd
+#RULE: LEDA STATE_MACHINES $LEDA_PATH/rules/leda/LEDA.rl 1730 M_0794
+#HTM1: "pol_leda.html#B_3602"
+
+    65:     NXT: process(sd,nextSd,sdc,data_in,fifo_empty,count1,count2,count3)
+            ^^^
+/home/ecegrid/a/mg56/ece337/project_new/source/sd_control.vhd:65: LEDA: STATE_> [WARNING] B_3607: The number of states in a state machine should be a power of 2
+#UNIT: VHDL LEDA_WORK SD_ARCH/SD_CONTROL /home/ecegrid/a/mg56/ece337/project_new/source/sd_control.vhd
+#RULE: LEDA STATE_MACHINES $LEDA_PATH/rules/leda/LEDA.rl 1780 M_0800
+#HTM1: "pol_leda.html#B_3607"
+
+--- Executing block-level checks on unit LEDA_WORK.BEHAVIORAL/LOCKINGDETECTOR ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.SHIFT/SHIFT_GREG ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.SOP_EOP/SEE_DET ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.STRUCT/FIFOTOP ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.FSM/TIMER ... ---
+
+
+    44:   seq2:process(CS, f_egde_det, egde_det, EOP)
+          ^^^^
+/home/ecegrid/a/mg56/ece337/project_new/source/timer.vhd:44: LEDA: STATE_> [WARNING] B_3607: The number of states in a state machine should be a power of 2
+#UNIT: VHDL LEDA_WORK FSM/TIMER /home/ecegrid/a/mg56/ece337/project_new/source/timer.vhd
+#RULE: LEDA STATE_MACHINES $LEDA_PATH/rules/leda/LEDA.rl 1780 M_0800
+#HTM1: "pol_leda.html#B_3607"
+
+--- Executing block-level checks on unit LEDA_WORK.FIFOREAD_ARCH/FIFOREAD ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.SPICLKDIVIDE_ARCH/SPICLKDIVIDE ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.BEHAVIORAL/COMPUTERINTERCEPTOR ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.STRUCT/SNIFFER_TOP ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.BEHAVIORAL/TRISTATE ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.FIFORAM_ARCH/FIFORAM ... ---
+
+
+--- Executing block-level checks on unit LEDA_WORK.BEHAVIORAL/USBINTERCEPTOR ... ---
+
+
+    63:  logic : process (eopReg,usbDataPlusOutputReg,usbDataMinusOutputReg,eop,cntr,intercept,usbDataPlusSync,usbInt1,usbInt2,usbDataMinusSync,usbDataPlusSync2,usbDataMinusSync2,state,usbLock,usbDataPlus,usbDataMinus)
+         ^^^^^
+/home/ecegrid/a/mg56/ece337/project_new/source/usbInterceptor.vhd:63: LEDA: STATE_> [WARNING] B_3607: The number of states in a state machine should be a power of 2
+#UNIT: VHDL LEDA_WORK BEHAVIORAL/USBINTERCEPTOR /home/ecegrid/a/mg56/ece337/project_new/source/usbInterceptor.vhd
+#RULE: LEDA STATE_MACHINES $LEDA_PATH/rules/leda/LEDA.rl 1780 M_0800
+#HTM1: "pol_leda.html#B_3607"
+
+--- Executing block-level checks on unit LEDA_WORK.SPIXMITSR_ARCH/SPIXMITSR ... ---
+
+
+--- Executing block-level checks on library LEDA_WORK ...
+
+
+--- Execution completed ---
+

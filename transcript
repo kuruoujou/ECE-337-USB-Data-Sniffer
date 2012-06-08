@@ -1,0 +1,1252 @@
+# //  ModelSim SE-64 10.0c Jul 21 2011 Linux 2.6.18-308.1.1.el5
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+#  
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/computerInterceptor.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity computerInterceptor
+# -- Compiling architecture behavioral of computerInterceptor
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/decoder.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder
+# -- Compiling architecture BLK of decoder
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/controller.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity controller
+# -- Compiling architecture controller_arch of controller
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/fifo_test.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity fifo_test
+# -- Compiling architecture struct of fifo_test
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/FifoRam.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FifoRam
+# -- Compiling architecture FifoRam_arch of FifoRam
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/FifoRead.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FifoRead
+# -- Compiling architecture FifoRead_arch of FifoRead
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/FifoTop.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity FifoTop
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling architecture struct of FifoTop
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/FifoWrite.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FifoWrite
+# -- Compiling architecture FifoWrite_arch of FifoWrite
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/interceptor.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity interceptor
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling architecture struct of interceptor
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/lockingDetector.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity lockingDetector
+# -- Compiling architecture behavioral of lockingDetector
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/NRZIdecode.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity NRZIdecode
+# -- Compiling architecture NRZI of NRZIdecode
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/sd_control.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity sd_control
+# -- Compiling architecture sd_arch of sd_control
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/SEE_det.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SEE_det
+# -- Compiling architecture SOP_EOP of SEE_det
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/shift_greg.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity shift_greg
+# -- Compiling architecture shift of shift_greg
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/sniffer_top.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity sniffer_top
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling architecture struct of sniffer_top
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/SpiClkDivide.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SpiClkDivide
+# -- Compiling architecture SpiClkDivide_arch of SpiClkDivide
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/SpiXmitSR.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SpiXmitSR
+# -- Compiling architecture SpiXmitSR_arch of SpiXmitSR
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/tb_computerInterceptor.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_computerInterceptor
+# -- Compiling architecture TEST of tb_computerInterceptor
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/tb_controller.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_controller
+# -- Compiling architecture TEST of tb_controller
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/tb_FifoTop.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_FifoTop
+# -- Compiling architecture TEST of tb_FifoTop
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/tb_interceptor.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_interceptor
+# -- Compiling architecture TEST of tb_interceptor
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/tb_sd_control.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_sd_control
+# -- Compiling architecture TEST of tb_sd_control
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/tb_interceptor.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_interceptor
+# -- Compiling architecture TEST of tb_interceptor
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/tb_sniffer_top.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_sniffer_top
+# -- Compiling architecture TEST of tb_sniffer_top
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/tb_SpiClkDivide.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_SpiClkDivide
+# -- Compiling architecture TEST of tb_SpiClkDivide
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/tb_SpiXmitSR.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_SpiXmitSR
+# -- Compiling architecture TEST of tb_SpiXmitSR
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/tb_tristate.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_tristate
+# -- Compiling architecture TEST of tb_tristate
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/tb_usbInterceptor.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_usbInterceptor
+# -- Compiling architecture TEST of tb_usbInterceptor
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/timer.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity timer
+# -- Compiling architecture FSM of timer
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/tristate.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tristate
+# -- Compiling architecture behavioral of tristate
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/usbInterceptor.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity usbInterceptor
+# -- Compiling architecture behavioral of usbInterceptor
+rm -rf work
+vlib work
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/tb_sniffer_top.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_sniffer_top
+# -- Compiling architecture TEST of tb_sniffer_top
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/mapped/sniffer_top.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package CONV_PACK_sniffer_top
+# -- Loading package CONV_PACK_sniffer_top
+# -- Compiling entity SpiClkDivide_165_3_0_0_DW01_inc_0
+# -- Compiling architecture SYN_rpl of SpiClkDivide_165_3_0_0_DW01_inc_0
+# -- Compiling entity sd_control_DW01_inc_0
+# -- Compiling architecture SYN_rpl of sd_control_DW01_inc_0
+# -- Compiling entity tristate_2
+# -- Compiling architecture SYN_behavioral of tristate_2
+# -- Compiling entity tristate_1
+# -- Compiling architecture SYN_behavioral of tristate_1
+# -- Compiling entity tristate_0
+# -- Compiling architecture SYN_behavioral of tristate_0
+# -- Compiling entity usbInterceptor
+# -- Compiling architecture SYN_behavioral of usbInterceptor
+# -- Compiling entity tristate_3
+# -- Compiling architecture SYN_behavioral of tristate_3
+# -- Compiling entity lockingDetector
+# -- Compiling architecture SYN_behavioral of lockingDetector
+# -- Compiling entity computerInterceptor
+# -- Compiling architecture SYN_behavioral of computerInterceptor
+# -- Compiling entity timer
+# -- Compiling architecture SYN_FSM of timer
+# -- Compiling entity shift_greg
+# -- Compiling architecture SYN_shift of shift_greg
+# -- Compiling entity NRZIdecode
+# -- Compiling architecture SYN_NRZI of NRZIdecode
+# -- Compiling entity SEE_det
+# -- Compiling architecture SYN_SOP_EOP of SEE_det
+# -- Compiling entity FifoWrite_gregLength4_addrSize2
+# -- Compiling architecture SYN_FifoWrite_arch of FifoWrite_gregLength4_addrSize2
+# -- Compiling entity FifoRead_gregLength4_addrSize2
+# -- Compiling architecture SYN_FifoRead_arch of FifoRead_gregLength4_addrSize2
+# -- Compiling entity FifoRam_gregLength4_gregWidth8_addrSize2
+# -- Compiling architecture SYN_FifoRam_arch of FifoRam_gregLength4_gregWidth8_addrSize2
+# -- Compiling entity sd_control
+# -- Compiling architecture SYN_sd_arch of sd_control
+# -- Compiling entity interceptor
+# -- Compiling architecture SYN_struct of interceptor
+# -- Compiling entity decoder
+# -- Compiling architecture SYN_BLK of decoder
+# -- Compiling entity controller
+# -- Compiling architecture SYN_controller_arch of controller
+# -- Compiling entity SpiXmitSR_srWidth8
+# -- Compiling architecture SYN_SpiXmitSR_arch of SpiXmitSR_srWidth8
+# -- Compiling entity SpiClkDivide_165_3_0_0
+# -- Compiling architecture SYN_SpiClkDivide_arch of SpiClkDivide_165_3_0_0
+# -- Compiling entity FifoTop_gregLength4_gregWidth8_addrSize2
+# -- Compiling architecture SYN_struct of FifoTop_gregLength4_gregWidth8_addrSize2
+# -- Compiling entity sniffer_top
+# -- Compiling architecture SYN_struct of sniffer_top
+vcom -reportprogress 300 -work work /home/ecegrid/a/mg56/ece337/Project/source/tb_sniffer_top.vhd
+# Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_sniffer_top
+# -- Compiling architecture TEST of tb_sniffer_top
+# Optimization canceled
+vsim -i work.tb_sniffer_top
+# vsim -i work.tb_sniffer_top 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.conv_pack_sniffer_top
+# Loading work.tb_sniffer_top(test)#1
+# Loading work.fifotop_greglength4_gregwidth8_addrsize2(syn_struct)#1
+# Loading work.fiforam_greglength4_gregwidth8_addrsize2(syn_fiforam_arch)#1
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading osu_ami05.prim(body)
+# Loading osu_ami05.dffsr(behavioral)#1
+# Loading osu_ami05.nand2x1(behavioral)#1
+# Loading osu_ami05.aoi22x1(behavioral)#1
+# Loading osu_ami05.nor2x1(behavioral)#1
+# Loading osu_ami05.invx1(behavioral)#1
+# Loading osu_ami05.mux2x1(behavioral)#1
+# Loading osu_ami05.nand3x1(behavioral)#1
+# Loading osu_ami05.xnor2x1(behavioral)#1
+# Loading work.fiforead_greglength4_addrsize2(syn_fiforead_arch)#1
+# Loading osu_ami05.xor2x1(behavioral)#1
+# Loading work.fifowrite_greglength4_addrsize2(syn_fifowrite_arch)#1
+# Loading work.spiclkdivide_165_3_0_0_dw01_inc_0(syn_rpl)#1
+# Loading osu_ami05.hax1(behavioral)#1
+# Loading osu_ami05.invx2(behavioral)#1
+# Loading osu_ami05.or2x1(behavioral)#1
+# Loading osu_ami05.and2x1(behavioral)#1
+# Loading osu_ami05.oai21x1(behavioral)#1
+# Loading osu_ami05.aoi21x1(behavioral)#1
+# Loading work.spixmitsr_srwidth8(syn_spixmitsr_arch)#1
+# Loading work.controller(syn_controller_arch)#1
+# Loading osu_ami05.dffposx1(behavioral)#1
+# Loading osu_ami05.oai22x1(behavioral)#1
+# Loading work.decoder(syn_blk)#1
+# Loading work.shift_greg(syn_shift)#1
+# Loading osu_ami05.bufx2(behavioral)#1
+# Loading work.interceptor(syn_struct)#1
+# Loading osu_ami05.tbufx1(behavioral)#1
+# Loading work.usbinterceptor(syn_behavioral)#1
+# Loading work.sd_control(syn_sd_arch)#1
+# Loading work.sd_control_dw01_inc_0(syn_rpl)#1
+# Loading osu_ami05.nor3x1(behavioral)#1
+add wave -position end  sim:/tb_sniffer_top/clk
+add wave -position end  sim:/tb_sniffer_top/rst
+add wave -position end  sim:/tb_sniffer_top/dataOut
+add wave -position end  sim:/tb_sniffer_top/scl
+add wave -position end  sim:/tb_sniffer_top/sd_enable
+add wave -position end  sim:/tb_sniffer_top/dataMinusComputer
+add wave -position end  sim:/tb_sniffer_top/dataMinusUsb
+add wave -position end  sim:/tb_sniffer_top/dataPlusComputer
+add wave -position end  sim:/tb_sniffer_top/dataPlusUsb
+run 1 ms
+# ** Note: Test1
+#    Time: 91 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: token
+#    Time: 91 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: HOSTdata_packet
+#    Time: 3115 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: DEVICEack_packet
+#    Time: 11515 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: token
+#    Time: 13195 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: DEVICEdata_packet
+#    Time: 16219 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 17563 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 17647 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 17731 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 17815 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 17899 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 17983 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 18067 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 18151 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 18235 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 18319 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 18403 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 18487 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 18571 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 18655 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 18739 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 18823 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 18907 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 18991 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 19075 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 19159 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 19243 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 19327 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 19411 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 19495 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 19579 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 19663 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 19747 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 19831 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 19915 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 19999 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 20083 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 20167 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 20251 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 20335 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 20419 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 20503 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 20587 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 20671 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 20755 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 20839 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 20923 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 21007 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 21091 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 21175 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 21259 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 21343 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 21427 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 21511 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 21595 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 21679 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 21763 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 21847 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 21931 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 22015 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 22099 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 22183 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 22267 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 22351 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 22435 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 22519 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 22603 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 22687 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 22771 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 22855 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: HOSTack_packet
+#    Time: 24619 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: token
+#    Time: 26299 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: HOSTdata_packet
+#    Time: 29323 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: DEVICEack_packet
+#    Time: 32347 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: Test2
+#    Time: 84118 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: token
+#    Time: 84118 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: HOSTdata_packet
+#    Time: 87142 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: DEVICEack_packet
+#    Time: 95542 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: token
+#    Time: 97222 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: DEVICEdata_packet
+#    Time: 100246 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 101590 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 101674 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 101758 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 101842 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 101926 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 102010 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 102094 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 102178 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 102262 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 102346 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 102430 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 102514 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 102598 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 102682 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 102766 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 102850 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 102934 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 103018 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 103102 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 103186 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 103270 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 103354 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 103438 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 103522 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 103606 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 103690 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 103774 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 103858 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 103942 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 104026 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 104110 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 104194 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 104278 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 104362 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 104446 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 104530 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 104614 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 104698 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 104782 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 104866 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 104950 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 105034 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 105118 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 105202 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 105286 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 105370 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 105454 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 105538 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 105622 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 105706 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 105790 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 105874 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 105958 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 106042 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 106126 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 106210 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 106294 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 106378 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 106462 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 106546 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 106630 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 106714 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 106798 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 106882 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: HOSTack_packet
+#    Time: 108646 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: token
+#    Time: 110326 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: HOSTdata_packet
+#    Time: 113350 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: DEVICEack_packet
+#    Time: 116374 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: Test3
+#    Time: 168054 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: token
+#    Time: 168054 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: DEVICEdata_packet
+#    Time: 171078 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 172422 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 172506 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 172590 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 172674 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 172758 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 172842 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 172926 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 173010 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 173094 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 173178 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 173262 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 173346 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 173430 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 173514 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 173598 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 173682 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 173766 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 173850 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 173934 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 174018 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 174102 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 174186 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 174270 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 174354 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 174438 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 174522 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 174606 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 174690 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 174774 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 174858 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 174942 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 175026 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 175110 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 175194 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 175278 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 175362 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 175446 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 175530 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 175614 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 175698 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 175782 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 175866 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 175950 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 176034 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 176118 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 176202 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 176286 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 176370 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 176454 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 176538 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 176622 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 176706 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 176790 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 176874 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 176958 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 177042 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 177126 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 177210 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 177294 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 177378 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 177462 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 177546 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 177630 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 177714 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: HOSTack_packet
+#    Time: 179478 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: Test4
+#    Time: 231158 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: token
+#    Time: 231158 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: DEVICEdata_packet
+#    Time: 234182 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 235526 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 235610 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 235694 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 235778 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 235862 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 235946 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 236030 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 236114 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 236198 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 236282 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 236366 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 236450 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 236534 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 236618 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 236702 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 236786 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 236870 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 236954 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 237038 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 237122 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 237206 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 237290 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 237374 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 237458 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 237542 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 237626 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 237710 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 237794 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 237878 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 237962 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 238046 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 238130 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 238214 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 238298 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 238382 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 238466 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 238550 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 238634 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 238718 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 238802 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 238886 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 238970 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 239054 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 239138 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 239222 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 239306 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 239390 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 239474 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 239558 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 239642 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 239726 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 239810 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 239894 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 239978 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 240062 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 240146 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 240230 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 240314 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 240398 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 240482 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 240566 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 240650 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 240734 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 240818 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: HOSTack_packet
+#    Time: 242582 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: Test5
+#    Time: 294262 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: token
+#    Time: 294262 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: DEVICEdata_packet
+#    Time: 297286 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 298630 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 298714 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 298798 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 298882 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 298966 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 299050 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 299134 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 299218 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 299302 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 299386 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 299470 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 299554 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 299638 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 299722 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 299806 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 299890 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 299974 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 300058 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 300142 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 300226 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 300310 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 300394 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 300478 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 300562 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 300646 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 300730 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 300814 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 300898 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 300982 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 301066 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 301150 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 301234 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 301318 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 301402 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 301486 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 301570 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 301654 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 301738 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 301822 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 301906 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 301990 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 302074 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 302158 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 302242 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 302326 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 302410 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 302494 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 302578 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 302662 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 302746 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 302830 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 302914 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 302998 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 303082 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 303166 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 303250 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 303334 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 303418 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 303502 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 303586 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 303670 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 303754 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 303838 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 303922 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: HOSTack_packet
+#    Time: 305686 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: Test6
+#    Time: 707366 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: token
+#    Time: 707366 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: DEVICEdata_packet
+#    Time: 710390 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 711734 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 711818 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 711902 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 711986 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 712070 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 712154 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 712238 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 712322 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 712406 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 712490 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 712574 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 712658 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 712742 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 712826 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 712910 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 712994 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 713078 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 713162 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 713246 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 713330 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 713414 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 713498 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 713582 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 713666 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 713750 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 713834 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 713918 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 714002 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 714086 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 714170 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 714254 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 714338 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 714422 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 714506 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 714590 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 714674 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 714758 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 714842 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 714926 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 715010 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 715094 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 715178 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 715262 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 715346 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 715430 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 715514 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 715598 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 715682 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 715766 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 715850 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 715934 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 716018 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 716102 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 716186 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 716270 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 716354 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 716438 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 716522 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 716606 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 716690 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 716774 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 716858 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 716942 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: device data
+#    Time: 717026 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: HOSTack_packet
+#    Time: 718790 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: Test7
+#    Time: 720470 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: token
+#    Time: 720470 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: HOSTdata_packet
+#    Time: 723494 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: DEVICEack_packet
+#    Time: 731894 ns  Iteration: 0  Instance: /tb_sniffer_top
+# ** Note: end
+#    Time: 733574 ns  Iteration: 0  Instance: /tb_sniffer_top

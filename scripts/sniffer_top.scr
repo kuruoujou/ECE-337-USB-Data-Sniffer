@@ -1,0 +1,2 @@
+#!/bin/csh -f
+dc_shell-t -f ./scripts/sniffer_top.fcr | tee sniffer_top.log
